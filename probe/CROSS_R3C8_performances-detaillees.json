@@ -1,0 +1,5637 @@
+{
+ "allure": "GALOP",
+ "participants": [
+  {
+   "numPmu": 1,
+   "nomCheval": "KLITCHKO DE BELAIR",
+   "coursesCourues": [
+    {
+     "date": 1788645600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "CRAON",
+     "nomPrix": "GRAND CROSS - PRIX SUPER U (PRIX LOUIS DE GUEBRIANT)",
+     "discipline": "CROSS",
+     "allocation": 79000,
+     "distance": 6000,
+     "nbParticipants": 6,
+     "tempsDuPremier": 501640,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SWEET DAVID",
+       "nomJockey": "T.DUMOUCH",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 83600,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 83660,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ICEO MADRIK",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DIX_HUIT_LONGUEURS",
+        "rawValue": "18 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84250,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GEMINI D'AX",
+       "nomJockey": "E.LABAISSE",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84500,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PEPITE BLEUE",
+       "nomJockey": "J.LEBRUN",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86530,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1782597600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "CORLAY",
+     "nomPrix": "GRAND CROSS DE CORLAY # 7 TNC HARAS DU LION-PMU-GROUPAMA- CARCARADEC",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5600,
+     "nbParticipants": 6,
+     "tempsDuPremier": 0,
+     "etatTerrain": "Bon souple",
+     "participants": [
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PEPITE BLEUE",
+       "nomJockey": "JEAN-STEPHANE LEBRUN",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 84040,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HOURVARI BOUM",
+       "nomJockey": "EDGAR LABAISSE",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Courte encolure"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "KILIAN DUBOURG",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ENCOLURE",
+        "rawValue": "Encolure"
+       },
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPECIAL DU ROCHER",
+       "nomJockey": "MATHIS CYPRIA",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1774738800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "FONTAINEBLEAU",
+     "nomPrix": "GRAND STEEPLE-CHASE CROSS-COUNTRY DE FONTAINEBLEAU",
+     "discipline": "CROSS",
+     "allocation": 53000,
+     "distance": 6000,
+     "nbParticipants": 8,
+     "tempsDuPremier": 452720,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 75450,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GOLD ALLEN",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75510,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MISS LAURA",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75600,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75930,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "DESERT STORM",
+       "nomJockey": "L.BRECHET",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEMI_LONGUEUR",
+        "rawValue": "1/2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75950,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1772838000000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "LIGNIERES",
+     "nomPrix": "GRAND CROSS -PX DRS VET WISSOCQ ET BERTHELOT #2TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 6000,
+     "nbParticipants": 8,
+     "tempsDuPremier": 517010,
+     "etatTerrain": "Souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 86160,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JACK LUX",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86180,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86340,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOB D'ETE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86500,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "C.RIOU",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86510,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1765666800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "DURTAL",
+     "nomPrix": "PRIX RED MILLS (PX POIRIER) GSC DE DURTAL #15 TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 4900,
+     "nbParticipants": 11,
+     "tempsDuPremier": 391390,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MISS LAURA",
+       "nomJockey": "MATTHIEU CHAILLOLEAU",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 79870,
+       "distanceParcourue": 4900,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ESPOIR",
+       "nomJockey": "DAMIEN THOMAS",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEMI_LONGUEUR",
+        "rawValue": "1/2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79900,
+       "distanceParcourue": 4900,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "KILIAN DUBOURG",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS_ET_DEMIE",
+        "rawValue": "5 L 1/2"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 80130,
+       "distanceParcourue": 4900,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HERMINE ALLEN",
+       "nomJockey": "LOUIS COLSON",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80260,
+       "distanceParcourue": 4900,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GOLD ALLEN",
+       "nomJockey": "ERWAN BURELLER",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR",
+        "rawValue": "1 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80310,
+       "distanceParcourue": 4900,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 2,
+   "nomCheval": "CAPTAIN DU BERLAIS",
+   "coursesCourues": [
+    {
+     "date": 1779573600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "ROSTRENEN",
+     "nomPrix": "GRAND CROSS ROSTRENEN # 5 TNC HARAS DU LION-PMU-PRIX INTERMARCHE",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5800,
+     "nbParticipants": 7,
+     "tempsDuPremier": 453420,
+     "etatTerrain": "Bon souple",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "CLEMENT LEFEBVRE",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 78170,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HOURVARI BOUM",
+       "nomJockey": "EDGAR LABAISSE",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Tête"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JIBRIL DES MOTTES",
+       "nomJockey": "TRISTAN LEMAGNEN",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GREAT DU LARGE",
+       "nomJockey": "THEO DUMOUCH",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TREIZE_LONGUEURS",
+        "rawValue": "13 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HELLO DE SIVOLA",
+       "nomJockey": "JEAN-STEPHANE LEBRUN",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEMI_LONGUEUR",
+        "rawValue": "1/2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1776463200000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "STRASBOURG",
+     "nomPrix": "GD CROSS STRASBOURG #4 TNC HARAS DU LION - PMU - PX M. ET M. LUTZ",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5200,
+     "nbParticipants": 8,
+     "tempsDuPremier": 398580,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "NORTH WAY",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 76650,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HOURVARI BOUM",
+       "nomJockey": "E.LABAISSE",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS",
+        "rawValue": "6 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 76840,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HELLO DE SIVOLA",
+       "nomJockey": "T.DUMOUCH",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS",
+        "rawValue": "6 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77030,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JADE DE LA ROQUE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77080,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JACK LUX",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77230,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 8,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "J.LEBRUN",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "VINGT_LONGUEURS",
+        "rawValue": "20 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 78250,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1772838000000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "LIGNIERES",
+     "nomPrix": "GRAND CROSS -PX DRS VET WISSOCQ ET BERTHELOT #2TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 6000,
+     "nbParticipants": 8,
+     "tempsDuPremier": 517010,
+     "etatTerrain": "Souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 86160,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JACK LUX",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86180,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 86340,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOB D'ETE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86500,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "C.RIOU",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86510,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1766530800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "PAU",
+     "nomPrix": "PRIX DE LEMBEYE",
+     "discipline": "HAIE",
+     "allocation": 19000,
+     "distance": 3800,
+     "nbParticipants": 13,
+     "tempsDuPremier": 286500,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 12,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BISTROT HAS",
+       "nomJockey": "E.LABAISSE",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 75390,
+       "distanceParcourue": 3800,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SAINT BATH",
+       "nomJockey": "A.LEPAGE",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75600,
+       "distanceParcourue": 3800,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GALET D'OUDAIRIES",
+       "nomJockey": "V.LE CLERC",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75860,
+       "distanceParcourue": 3800,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "OAK CREEK",
+       "nomJockey": "Q.SAMARIA",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UN_NEZ",
+        "rawValue": "Nez"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75860,
+       "distanceParcourue": 3800,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 76100,
+       "distanceParcourue": 3800,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1765666800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "PAU",
+     "nomPrix": "PRIX JEAN LAMAYSOUETTE",
+     "discipline": "STEEPLECHASE",
+     "allocation": 64000,
+     "distance": 4000,
+     "nbParticipants": 12,
+     "tempsDuPremier": 300100,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPODIMONTE",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 68.5,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 75020,
+       "distanceParcourue": 4000,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 11,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KAOLIN",
+       "nomJockey": "K.NABET",
+       "poidsJockey": 65.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75150,
+       "distanceParcourue": 4000,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 9,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GALOP DU LARGE",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 67.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75200,
+       "distanceParcourue": 4000,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 12,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAITLIN'S COURT",
+       "nomJockey": "B.LE CLERC",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75220,
+       "distanceParcourue": 4000,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOUVANCELLE",
+       "nomJockey": "B.FROST",
+       "poidsJockey": 68.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS_ET_DEMIE",
+        "rawValue": "5 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75520,
+       "distanceParcourue": 4000,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": null,
+        "rawValue": "AR",
+        "statusArrivee": "ARRETE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4000,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 3,
+   "nomCheval": "LUPIN D'AUBRELLE",
+   "coursesCourues": [
+    {
+     "date": 1789682400000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "MOULINS",
+     "nomPrix": "GRAND CROSS DE MOULINS # 12 TNC HARAS DU LION - PRIX KARAKTAR",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5500,
+     "nbParticipants": 8,
+     "tempsDuPremier": 444100,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LUPIN D'AUBRELLE",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 80740,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "NORTH WAY",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HOURVARI BOUM",
+       "nomJockey": "K. DUBOURG",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ENCOLURE",
+        "rawValue": "Encolure"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JIBE DES DUNES",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS_ET_DEMIE",
+        "rawValue": "8 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "INOUIE TIEPY",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1781388000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "MOULINS",
+     "nomPrix": "PRIX TREYVE PAYSAGE (PRIX LUC CACQUEVEL)",
+     "discipline": "CROSS",
+     "allocation": 20000,
+     "distance": 4800,
+     "nbParticipants": 7,
+     "tempsDuPremier": 391600,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LUPIN D'AUBRELLE",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 75.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 81580,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JAZZY DU MESTIVEL",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Courte encolure"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IN CAPRI",
+       "nomJockey": "L.COLSON",
+       "poidsJockey": 75.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JEDDIE CONTI",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SEPT_LONGUEURS_ET_DEMIE",
+        "rawValue": "7 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GODIVA LADY",
+       "nomJockey": "J.LEBRUN",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1779660000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "MOULINS",
+     "nomPrix": "PRIX PARTEDIS - L'AVERMOIS (PRIX SAONE ET LOIRE GALOP)",
+     "discipline": "CROSS",
+     "allocation": 20000,
+     "distance": 4800,
+     "nbParticipants": 6,
+     "tempsDuPremier": 391600,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LUPIN D'AUBRELLE",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 81580,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PARKATTHETHEATRE",
+       "nomJockey": "T.LEMAGNEN",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81620,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KENAVO BAIE",
+       "nomJockey": "J.LEBRUN",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81680,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "NORDICA DEBELAIR",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 82000,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LYRICAL STAR",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATORZE_LONGUEURS",
+        "rawValue": "14 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 82470,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1765580400000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "MOULINS",
+     "nomPrix": "PRIX PARTEDIS - L'AVERMOIS (PRIX RENE COUETIL)",
+     "discipline": "CROSS",
+     "allocation": 23000,
+     "distance": 4700,
+     "nbParticipants": 8,
+     "tempsDuPremier": 400600,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LUPIN D'AUBRELLE",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 85230,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPES FULLKAM",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LAGUNE SECRETE",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KATE MOUSE",
+       "nomJockey": "L.COLSON",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DOUZE_LONGUEURS",
+        "rawValue": "12 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "WISH HOP",
+       "nomJockey": "E.BURELLER",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TREIZE_LONGUEURS",
+        "rawValue": "13 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1762642800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "MOULINS",
+     "nomPrix": "PRIX NINCK M.E.D.I.A  MESURES (PRIX LUC CACQUEVEL)",
+     "discipline": "CROSS",
+     "allocation": 25000,
+     "distance": 4800,
+     "nbParticipants": 7,
+     "tempsDuPremier": 410900,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LUPIN D'AUBRELLE",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 85600,
+       "distanceParcourue": 4800,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KAPRIKA DE BAUNE",
+       "nomJockey": "E.LABAISSE",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4800,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KADABRA ALLEN",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4800,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KERAZYE DE ST JEAN",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4800,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KUMINE",
+       "nomJockey": "B.GELHAY",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS_ET_DEMIE",
+        "rawValue": "6 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4800,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 4,
+   "nomCheval": "ILLAHO",
+   "coursesCourues": [
+    {
+     "date": 1791669600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "AUTEUIL",
+     "nomPrix": "PRIX MONTGOMERY (GROUPE III)",
+     "discipline": "STEEPLECHASE",
+     "allocation": 152000,
+     "distance": 4700,
+     "nbParticipants": 16,
+     "tempsDuPremier": 362990,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 15,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KALIBRE",
+       "nomJockey": "J.PHELIPPE",
+       "poidsJockey": 62.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 77230,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PASCARD DE BEAUSSE",
+       "nomJockey": "G.MASURE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Courte encolure"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77240,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "AMY DU KIFF",
+       "nomJockey": "T.CHEVILLARD",
+       "poidsJockey": 69.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SEPT_LONGUEURS",
+        "rawValue": "7 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77500,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 12,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BENOU",
+       "nomJockey": "F.BAYLE",
+       "poidsJockey": 62.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77560,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LE PETIT CHEVAL",
+       "nomJockey": "B.LE CLERC",
+       "poidsJockey": 71.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Tête"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 77570,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 8,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "ILLAHO",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ONZE_LONGUEURS",
+        "rawValue": "11 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 78470,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1789596000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "AUTEUIL",
+     "nomPrix": "PRIX VIOLON II",
+     "discipline": "STEEPLECHASE",
+     "allocation": 105000,
+     "distance": 4400,
+     "nbParticipants": 15,
+     "tempsDuPremier": 326960,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PASCARD DE BEAUSSE",
+       "nomJockey": "G.MASURE",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 74300,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 14,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KALIBRE",
+       "nomJockey": "B.LE CLERC",
+       "poidsJockey": 63.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Tête"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 74310,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "TANTE ZENA",
+       "nomJockey": "L.PHILIPPERON",
+       "poidsJockey": 64.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 74360,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LEBRIO DES MOTTES",
+       "nomJockey": "A.ZULIANI",
+       "poidsJockey": 66.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DIX_LONGUEURS",
+        "rawValue": "10 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 74750,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MASTER NONANTAIS",
+       "nomJockey": "L. BRECHET",
+       "poidsJockey": 65.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 74850,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 10,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "ILLAHO",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 69.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DIX_LONGUEURS",
+        "rawValue": "10 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 75460,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1788904800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "COMPIEGNE",
+     "nomPrix": "PRIX THE STOMP",
+     "discipline": "STEEPLECHASE",
+     "allocation": 88000,
+     "distance": 3800,
+     "nbParticipants": 10,
+     "tempsDuPremier": 276350,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BUBBLE PRETTY",
+       "nomJockey": "N.FERREIRA",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 72720,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 9,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CI PPO RA",
+       "nomJockey": "B.LE CLERC",
+       "poidsJockey": 64.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 72800,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "OLYMPIC STORY",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 63.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 72880,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GAME OF STORM",
+       "nomJockey": "K.NABET",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 72980,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ILLAHO",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 73040,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1778882400000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "AUTEUIL",
+     "nomPrix": "PRIX SAINT-SAUVEUR",
+     "discipline": "STEEPLECHASE",
+     "allocation": 98000,
+     "distance": 4400,
+     "nbParticipants": 16,
+     "tempsDuPremier": 344430,
+     "etatTerrain": "Lourd",
+     "participants": [
+      {
+       "numPmu": 9,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LEGREC",
+       "nomJockey": "T.DUMOUCH",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 78270,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GINJA DES TAILLONS",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUINZE_LONGUEURS",
+        "rawValue": "15 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 78840,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 16,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ITIEPY",
+       "nomJockey": "B.LE CLERC",
+       "poidsJockey": 62.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 78900,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "COLWINSTON",
+       "nomJockey": "J.CHARRON",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR",
+        "rawValue": "1 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 78950,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 12,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "FLANKER",
+       "nomJockey": "F.BAYLE",
+       "poidsJockey": 63.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 78980,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 7,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "ILLAHO",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 69.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 79070,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1776549600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "AUTEUIL",
+     "nomPrix": "PRIX DU PRESIDENT DE LA REPUBLIQUE (GROUPE III)",
+     "discipline": "STEEPLECHASE",
+     "allocation": 235000,
+     "distance": 4700,
+     "nbParticipants": 11,
+     "tempsDuPremier": 358500,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KEYREINE DU SEUIL",
+       "nomJockey": "B.LE CLERC",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 76270,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ILLAHO",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 68.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 76360,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "OCRE",
+       "nomJockey": "G.MEUNIER",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 76400,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KING PINEAU",
+       "nomJockey": "D.THOMAS",
+       "poidsJockey": 63.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Tête"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 76410,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 9,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "NAVARRENX",
+       "nomJockey": "A. ZULIANI",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS",
+        "rawValue": "6 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 76640,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 5,
+   "nomCheval": "HEMEVOICI",
+   "coursesCourues": [
+    {
+     "date": 1792274400000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "LYON-PARILLY",
+     "nomPrix": "PRIX DU CERCLE DE L'ETRIER",
+     "discipline": "CROSS",
+     "allocation": 23000,
+     "distance": 5200,
+     "nbParticipants": 5,
+     "tempsDuPremier": 433870,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "NICAR DEL AVIGNON",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 74.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 83430,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IRUNDO",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 75.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 83480,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "A.ZULIANI",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS_ET_DEMIE",
+        "rawValue": "6 L 1/2"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 83700,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1777845600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "COMPIEGNE",
+     "nomPrix": "PRIX TERI AC",
+     "discipline": "CROSS",
+     "allocation": 28000,
+     "distance": 4700,
+     "nbParticipants": 8,
+     "tempsDuPremier": 371600,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GLASGOW DU BERLAIS",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 79060,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "NIKO HAS",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DOUZE_LONGUEURS",
+        "rawValue": "12 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79580,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GRANDGADOR",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79680,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KATELL DES BLINS",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 74.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79750,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DIX_LONGUEURS",
+        "rawValue": "10 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 80200,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1774738800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "FONTAINEBLEAU",
+     "nomPrix": "GRAND STEEPLE-CHASE CROSS-COUNTRY DE FONTAINEBLEAU",
+     "discipline": "CROSS",
+     "allocation": 53000,
+     "distance": 6000,
+     "nbParticipants": 8,
+     "tempsDuPremier": 452720,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 75450,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GOLD ALLEN",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75510,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MISS LAURA",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75600,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 75930,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "DESERT STORM",
+       "nomJockey": "L.BRECHET",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEMI_LONGUEUR",
+        "rawValue": "1/2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 75950,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1772838000000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "LIGNIERES",
+     "nomPrix": "GRAND CROSS -PX DRS VET WISSOCQ ET BERTHELOT #2TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 6000,
+     "nbParticipants": 8,
+     "tempsDuPremier": 517010,
+     "etatTerrain": "Souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KLITCHKO DE BELAIR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 86160,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JACK LUX",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86180,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86340,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOB D'ETE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 86500,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "C.RIOU",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 86510,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1768690800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "PAU",
+     "nomPrix": "PRIX GUY LEFRANT - CHALLENGE DE L'OBSTACLE EQUINAXY",
+     "discipline": "CROSS",
+     "allocation": 33000,
+     "distance": 4100,
+     "nbParticipants": 7,
+     "tempsDuPremier": 331500,
+     "etatTerrain": "Lourd",
+     "participants": [
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "G.VIEL",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 80850,
+       "distanceParcourue": 4100,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "R.GABARD",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81090,
+       "distanceParcourue": 4100,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ISAGIRL",
+       "nomJockey": "R.LEMIERE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81240,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JE SUIS DIVIN",
+       "nomJockey": "L.HAYERES FOUCHARD",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81390,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "AFFORTUNATO",
+       "nomJockey": "C.LE GUEVEL",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 82000,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 6,
+   "nomCheval": "SPECIAL DU ROCHER",
+   "coursesCourues": [
+    {
+     "date": 1793487600000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "SAUMUR",
+     "nomPrix": "PRIX DE LA VILLE DE SAUMUR",
+     "discipline": "CROSS",
+     "allocation": 20000,
+     "distance": 5300,
+     "nbParticipants": 7,
+     "tempsDuPremier": 374120,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HARD ROC DE KERSER",
+       "nomJockey": "OLIVIER JOUIN",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 70580,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPECIAL DU ROCHER",
+       "nomJockey": "JULIAN DEROUET",
+       "poidsJockey": 76.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Courte encolure"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 70600,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HARRY BROWN",
+       "nomJockey": "THOMAS BEAURAIN",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 70780,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GIROLLE DE SIVOLA",
+       "nomJockey": "ESTEBAN METIVIER",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 71110,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CANAILLE DE NONANT",
+       "nomJockey": "LOUIS COLSON",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DIX_LONGUEURS",
+        "rawValue": "10 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 71510,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1792274400000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "SAUMUR",
+     "nomPrix": "GRAND CROSS DE SAUMUR#14 TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5300,
+     "nbParticipants": 5,
+     "tempsDuPremier": 385320,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JE SUIS DIVIN",
+       "nomJockey": "OLIVIER JOUIN",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 72700,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KEEP CALM DARIYAN",
+       "nomJockey": "MATTHIEU CHAILLOLEAU",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS_ET_DEMIE",
+        "rawValue": "6 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 72930,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPECIAL DU ROCHER",
+       "nomJockey": "KILLIAN MICHEL",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 73030,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ALL RIGHT NOW",
+       "nomJockey": "KILIAN DUBOURG",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "INCONNU",
+        "rawValue": "Courte tête"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 73030,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IGUSKI",
+       "nomJockey": "JEAN-STEPHANE LEBRUN",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 73200,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1788732000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "CRAON",
+     "nomPrix": "PRIX GROUPAMA (PRIX DE LA SAYETTE)",
+     "discipline": "CROSS",
+     "allocation": 24000,
+     "distance": 4600,
+     "nbParticipants": 6,
+     "tempsDuPremier": 384860,
+     "etatTerrain": "Souple",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPECIAL DU ROCHER",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 83660,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPEED DES LANDES",
+       "nomJockey": "E. LABAISSE",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS_ET_DEMIE",
+        "rawValue": "6 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 83940,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HARRY BROWN",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84000,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ALL RIGHT NOW",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84200,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ADSUM",
+       "nomJockey": "A.COUPU",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84420,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1786744800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "GRANVILLE",
+     "nomPrix": "GRAND CROSS -PRIX VANS MTM - LUC BELLET - #10 TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5800,
+     "nbParticipants": 9,
+     "tempsDuPremier": 501500,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOLY GIRL",
+       "nomJockey": "OLIVIER JOUIN",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 86460,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JIBE DES DUNES",
+       "nomJockey": "FELIX GILES",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JUPETTE DE SIVOLA",
+       "nomJockey": "JEAN-STEPHANE LEBRUN",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JAZZY DU MESTIVEL",
+       "nomJockey": "THOMAS JOURNIAC",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JUNOV DU MOU",
+       "nomJockey": "LEO-PAUL BRECHET",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 6,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "SPECIAL DU ROCHER",
+       "nomJockey": "MATHIS CYPRIA",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1785016800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "GRANVILLE",
+     "nomPrix": "PRIX KOMILFO",
+     "discipline": "CROSS",
+     "allocation": 20000,
+     "distance": 4800,
+     "nbParticipants": 8,
+     "tempsDuPremier": 453300,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPECIAL DU ROCHER",
+       "nomJockey": "JULIAN DEROUET",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 94430,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IGUSKI",
+       "nomJockey": "OLIVIER JOUIN",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS",
+        "rawValue": "6 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JALOUSIE D'AINAY",
+       "nomJockey": "RAPHAEL MAYEUR",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ENCOLURE",
+        "rawValue": "Encolure"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ISAGIRL",
+       "nomJockey": "LUCAS VANDAMME",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS",
+        "rawValue": "6 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 7,
+   "nomCheval": "GRAND DE THAIX",
+   "coursesCourues": [
+    {
+     "date": 1779573600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "MERANO",
+     "nomPrix": "18.o Grande Steeple-Chase DEuropa",
+     "discipline": "STEEPLECHASE",
+     "allocation": 65000,
+     "distance": 4600,
+     "nbParticipants": 6,
+     "tempsDuPremier": 345400,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPEED EMILE",
+       "nomJockey": "B. Le Clerc",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CHES DEMONMIRAIL",
+       "nomJockey": "A. Pollioni",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KROKODILE DUNDEE",
+       "nomJockey": "J. Kratochvil",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JUMP DES BRUYERES",
+       "nomJockey": "J. Faltejsek",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GRAND DE THAIX",
+       "nomJockey": "L. Matusky",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1776636000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "MERANO",
+     "nomPrix": "Premio Val Di Non",
+     "discipline": "STEEPLECHASE",
+     "allocation": 18000,
+     "distance": 3800,
+     "nbParticipants": 7,
+     "tempsDuPremier": 288100,
+     "etatTerrain": "Souple",
+     "participants": [
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GRAND DE THAIX",
+       "nomJockey": "L. Matusky",
+       "poidsJockey": 66.5,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HER HIM",
+       "nomJockey": "R. Bens",
+       "poidsJockey": 66.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DIX_LONGUEURS",
+        "rawValue": "10 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MONSTER CAROLI",
+       "nomJockey": "O. Velek",
+       "poidsJockey": 67.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "Arc en Ciel",
+       "nomJockey": "T. Polesna",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS",
+        "rawValue": "6 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "Madrilène",
+       "nomJockey": "J. Bartos",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": null,
+       "oeillere": null
+      }
+     ]
+    },
+    {
+     "date": 1756764000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "WAREGEM",
+     "nomPrix": "ING GROTE STEEPLE-CHASE VAN VLAANDEREN",
+     "discipline": "STEEPLECHASE",
+     "allocation": 100000,
+     "distance": 4600,
+     "nbParticipants": 7,
+     "tempsDuPremier": 337400,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPEED EMILE",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 73340,
+       "distanceParcourue": 4600,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PLACENET",
+       "nomJockey": "J.CHARRON",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 73390,
+       "distanceParcourue": 4600,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CAPTAIN DU BERLAIS",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 66.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 73520,
+       "distanceParcourue": 4600,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GRAND DE THAIX",
+       "nomJockey": "L.NEPRASOVA",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 73600,
+       "distanceParcourue": 4600,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1736031600000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "CAGNES-SUR-MER",
+     "nomPrix": "GRANDE COURSE DE HAIES DE CAGNES",
+     "discipline": "HAIE",
+     "allocation": 90000,
+     "distance": 4300,
+     "nbParticipants": 13,
+     "tempsDuPremier": 309490,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ANGE PITOU",
+       "nomJockey": "J.KRATOCHVIL",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4300,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GURZUF",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4300,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KAPTEEN",
+       "nomJockey": "B.CLAUDIC",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_TROIS_QUARTS",
+        "rawValue": "1 L 3/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4300,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOUR POLAIRE",
+       "nomJockey": "N.FERREIRA",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4300,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LOU FAST",
+       "nomJockey": "L.PHILIPPERON",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SIX_LONGUEURS_ET_DEMIE",
+        "rawValue": "6 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4300,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 9,
+       "place": {
+        "place": null,
+        "rawValue": "AR",
+        "statusArrivee": "ARRETE"
+       },
+       "nomCheval": "GRAND DE THAIX",
+       "nomJockey": "J.BARTOS",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4300,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1735513200000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "CAGNES-SUR-MER",
+     "nomPrix": "PRIX REGIS BERTIN (PRIX DE LA VENDEE)",
+     "discipline": "STEEPLECHASE",
+     "allocation": 66000,
+     "distance": 4200,
+     "nbParticipants": 10,
+     "tempsDuPremier": 319750,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JANGO D'AIRY",
+       "nomJockey": "B.MARCHAND",
+       "poidsJockey": 68.5,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4200,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "VEZZANA",
+       "nomJockey": "J.KRATOCHVIL",
+       "poidsJockey": 69.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4200,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "INSTAR DE REVE",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 67.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4200,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "SPES ENERGICALL",
+       "nomJockey": "B.FROST",
+       "poidsJockey": 62.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATORZE_LONGUEURS",
+        "rawValue": "14 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4200,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOLYMIN",
+       "nomJockey": "G.CHAMPIER",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SEPT_LONGUEURS",
+        "rawValue": "7 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4200,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 7,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "GRAND DE THAIX",
+       "nomJockey": "J.BARTOS",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR",
+        "rawValue": "1 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4200,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 8,
+   "nomCheval": "RISKMAN",
+   "coursesCourues": [
+    {
+     "date": 1792360800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "COMPIEGNE",
+     "nomPrix": "PRIX FRANCOIS DE CHEVIGNY",
+     "discipline": "CROSS",
+     "allocation": 28000,
+     "distance": 4700,
+     "nbParticipants": 6,
+     "tempsDuPremier": 376070,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LISETTE D'ESTRUVAL",
+       "nomJockey": "J.BRYAN",
+       "poidsJockey": 75.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 80010,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "THO .JOURNIAC",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ENCOLURE",
+        "rawValue": "Encolure"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 80030,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PORZMAN",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 76.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SEPT_LONGUEURS",
+        "rawValue": "7 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80350,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ETONNANT",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80440,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KUMINE",
+       "nomJockey": "Y.DELEPINE",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "VINGT_LONGUEURS",
+        "rawValue": "20 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81600,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1773270000000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "MONT DE MARSAN",
+     "nomPrix": "GD CROSS DE MT-D-MARSAN #3 TNC H. D.LION-PMU-SOALRACING (PX R.D.B)",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 4650,
+     "nbParticipants": 8,
+     "tempsDuPremier": 363100,
+     "etatTerrain": "Lourd",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JAZZ DE CANDALE AA",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 78080,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HOURVARI BOUM",
+       "nomJockey": "E.LABAISSE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 78430,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KATELL DES BLINS",
+       "nomJockey": "E.BURELLER",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS_ET_DEMIE",
+        "rawValue": "4 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 78600,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 78790,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "FIRST MARVEL",
+       "nomJockey": "T.DUMOUCH",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79260,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1768690800000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "PAU",
+     "nomPrix": "PRIX GUY LEFRANT - CHALLENGE DE L'OBSTACLE EQUINAXY",
+     "discipline": "CROSS",
+     "allocation": 33000,
+     "distance": 4100,
+     "nbParticipants": 7,
+     "tempsDuPremier": 331500,
+     "etatTerrain": "Lourd",
+     "participants": [
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HEMEVOICI",
+       "nomJockey": "G.VIEL",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 80850,
+       "distanceParcourue": 4100,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "R.GABARD",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 81090,
+       "distanceParcourue": 4100,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ISAGIRL",
+       "nomJockey": "R.LEMIERE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81240,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JE SUIS DIVIN",
+       "nomJockey": "L.HAYERES FOUCHARD",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81390,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "AFFORTUNATO",
+       "nomJockey": "C.LE GUEVEL",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS",
+        "rawValue": "9 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 82000,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1767913200000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "PAU",
+     "nomPrix": "PRIX FAIRPLAY",
+     "discipline": "CROSS",
+     "allocation": 29000,
+     "distance": 4700,
+     "nbParticipants": 10,
+     "tempsDuPremier": 390500,
+     "etatTerrain": "Lourd",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 83080,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ENCORE UNE BELLE",
+       "nomJockey": "J.LEBRUN",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DOUZE_LONGUEURS",
+        "rawValue": "12 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 83590,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JANVIER",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS_ET_DEMIE",
+        "rawValue": "3 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 83720,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOKER CAUVELLIERE",
+       "nomJockey": "C.RIOU",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_DEMIE",
+        "rawValue": "1 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 83800,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOLY GIRL",
+       "nomJockey": "L.COLSON",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUINZE_LONGUEURS",
+        "rawValue": "15 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84820,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1765839600000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "PAU",
+     "nomPrix": "PRIX DU PAU HUNT RACES",
+     "discipline": "CROSS",
+     "allocation": 33000,
+     "distance": 4100,
+     "nbParticipants": 12,
+     "tempsDuPremier": 324200,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JACK LUX",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 79070,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 79140,
+       "distanceParcourue": 4100,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JANVIER",
+       "nomJockey": "M.CHAILLOLEAU",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79310,
+       "distanceParcourue": 4100,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOB D'ETE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79340,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "THEQUIETMAN",
+       "nomJockey": "C.LEFEBVRE",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS_ET_DEMIE",
+        "rawValue": "5 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 79630,
+       "distanceParcourue": 4100,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 9,
+   "nomCheval": "BELABRA",
+   "coursesCourues": [
+    {
+     "date": 1758060000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "MOULINS",
+     "nomPrix": "GRAND CROSS DE MOULINS # 12 TNC HARAS DU LION - PMU",
+     "discipline": "CROSS",
+     "allocation": 48000,
+     "distance": 5500,
+     "nbParticipants": 8,
+     "tempsDuPremier": 445800,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JADE DE LA ROQUE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 81050,
+       "distanceParcourue": 5500,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "HOURVARI BOUM",
+       "nomJockey": "E.LABAISSE",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_QUARTS_DE_LONGUEUR",
+        "rawValue": "3/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81070,
+       "distanceParcourue": 5500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GENTLEMAN DE REVE",
+       "nomJockey": "T.SPORLI",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS_ET_DEMIE",
+        "rawValue": "5 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81250,
+       "distanceParcourue": 5500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IVRESSE D'ESTRUVAL",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ONZE_LONGUEURS",
+        "rawValue": "11 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81630,
+       "distanceParcourue": 5500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JIBE DES DUNES",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81830,
+       "distanceParcourue": 5500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 7,
+        "rawValue": "DP",
+        "statusArrivee": "NON_PLACE"
+       },
+       "nomCheval": "BELABRA",
+       "nomJockey": "B.GELHAY",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 85200,
+       "distanceParcourue": 5500,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1746568800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "COMPIEGNE",
+     "nomPrix": "PRIX TERI AC",
+     "discipline": "CROSS",
+     "allocation": 30000,
+     "distance": 4700,
+     "nbParticipants": 11,
+     "tempsDuPremier": 374000,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 10,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BELABRA",
+       "nomJockey": "B.GELHAY",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GRANDGADOR",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 8,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JADE DE LA ROQUE",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IMAGINAIRE",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ALL RIGHT NOW",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 74.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "NEUF_LONGUEURS_ET_DEMIE",
+        "rawValue": "9 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1743976800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "COMPIEGNE",
+     "nomPrix": "PRIX JACQUES DE VIENNE",
+     "discipline": "CROSS",
+     "allocation": 26000,
+     "distance": 4700,
+     "nbParticipants": 9,
+     "tempsDuPremier": 376500,
+     "etatTerrain": "Très souple",
+     "participants": [
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "DONNE LE CHANGE",
+       "nomJockey": "P.DUBOURG",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IRONIE DU LAC",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 9,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BELABRA",
+       "nomJockey": "B.GELHAY",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MARE SOL",
+       "nomJockey": "F.GILES",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UNE_LONGUEUR_ET_QUART",
+        "rawValue": "1 L 1/4"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ST REGIS OLIVIER",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "CINQ_LONGUEURS",
+        "rawValue": "5 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4700,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1742079600000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "LYON-PARILLY",
+     "nomPrix": "PRIX VERDI",
+     "discipline": "CROSS",
+     "allocation": 26000,
+     "distance": 4500,
+     "nbParticipants": 6,
+     "tempsDuPremier": 382770,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 6,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BELABRA",
+       "nomJockey": "B.GELHAY",
+       "poidsJockey": 64.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4500,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "IRONIE DU LAC",
+       "nomJockey": "T.BEAURAIN",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SEPT_LONGUEURS",
+        "rawValue": "7 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MARE SOL",
+       "nomJockey": "F. DE GILES",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEMI_LONGUEUR",
+        "rawValue": "1/2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BRUNCH ROYAL",
+       "nomJockey": "J.BARTOS",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEMI_LONGUEUR",
+        "rawValue": "1/2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4500,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "DARK WOOD",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DOUZE_LONGUEURS",
+        "rawValue": "12 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4500,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1740783600000,
+     "timezoneOffset": 3600000,
+     "hippodrome": "ARGENTAN",
+     "nomPrix": "PRIX QUITTE OU DOUBLE",
+     "discipline": "STEEPLECHASE",
+     "allocation": 15000,
+     "distance": 4250,
+     "nbParticipants": 10,
+     "tempsDuPremier": 303400,
+     "etatTerrain": "Bon souple",
+     "participants": [
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JONY BE GOOD",
+       "nomJockey": "T.DUMOUCH",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4250,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GAME OPAL",
+       "nomJockey": "L.COLSON",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4250,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 9,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BELABRA",
+       "nomJockey": "L.BRECHET",
+       "poidsJockey": 65.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4250,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JERICHO D'ALENE",
+       "nomJockey": "Y.COURMONT",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4250,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JUMPER DE SARTI",
+       "nomJockey": "A.DUVACHER",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": null,
+       "distanceParcourue": 4250,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numPmu": 10,
+   "nomCheval": "LISETTE D'ESTRUVAL",
+   "coursesCourues": [
+    {
+     "date": 1792360800000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "COMPIEGNE",
+     "nomPrix": "PRIX FRANCOIS DE CHEVIGNY",
+     "discipline": "CROSS",
+     "allocation": 28000,
+     "distance": 4700,
+     "nbParticipants": 6,
+     "tempsDuPremier": 376070,
+     "etatTerrain": "Collant",
+     "participants": [
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LISETTE D'ESTRUVAL",
+       "nomJockey": "J.BRYAN",
+       "poidsJockey": 75.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": true,
+       "reductionKilometrique": 80010,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "RISKMAN",
+       "nomJockey": "THO .JOURNIAC",
+       "poidsJockey": 73.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "ENCOLURE",
+        "rawValue": "Encolure"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80030,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PORZMAN",
+       "nomJockey": "M.ZULIANI",
+       "poidsJockey": 76.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "SEPT_LONGUEURS",
+        "rawValue": "7 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80350,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ETONNANT",
+       "nomJockey": "J.REVELEY",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS",
+        "rawValue": "2 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80440,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KUMINE",
+       "nomJockey": "Y.DELEPINE",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "VINGT_LONGUEURS",
+        "rawValue": "20 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81600,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      }
+     ]
+    },
+    {
+     "date": 1790460000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "CASTERA-VERDUZAN",
+     "nomPrix": "PRIX RADIO DFM 930",
+     "discipline": "CROSS",
+     "allocation": 16000,
+     "distance": 4200,
+     "nbParticipants": 5,
+     "tempsDuPremier": 320500,
+     "etatTerrain": "Bon léger",
+     "participants": [
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "FIRST MARVEL",
+       "nomJockey": "JONATHAN PLOUGANOU",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 76300,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LISETTE D'ESTRUVAL",
+       "nomJockey": "KILIAN DUBOURG",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 76730,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "L AUDACIEUX",
+       "nomJockey": "MIA BARS HUGONOT",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "TROIS_LONGUEURS",
+        "rawValue": "3 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 76850,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      }
+     ]
+    },
+    {
+     "date": 1788300000000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "TOULOUSE",
+     "nomPrix": "PRIX GUY DU FAUR DE PIBRAC",
+     "discipline": "STEEPLECHASE",
+     "allocation": 26000,
+     "distance": 3500,
+     "nbParticipants": 5,
+     "tempsDuPremier": 249800,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOYVOL",
+       "nomJockey": "M.ZITIOU-COLLONGES",
+       "poidsJockey": 70.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 71370,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "BENI GODS",
+       "nomJockey": "T.JAGUELIN",
+       "poidsJockey": 63.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 71480,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LISETTE D'ESTRUVAL",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UN_QUART_DE_LONGUEUR",
+        "rawValue": "1/4 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 71510,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "MANAVA",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "UN_QUART_DE_LONGUEUR",
+        "rawValue": "1/4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 71510,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GINO'S LINE",
+       "nomJockey": "G.FAIVRE-PICON",
+       "poidsJockey": 72.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "VINGT_LONGUEURS",
+        "rawValue": "20 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 72420,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1785535200000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "POMPADOUR",
+     "nomPrix": "PRIX PRESIDENT G. DAUDE",
+     "discipline": "STEEPLECHASE",
+     "allocation": 21000,
+     "distance": 4200,
+     "nbParticipants": 6,
+     "tempsDuPremier": 336700,
+     "etatTerrain": "Bon",
+     "participants": [
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KREEDENCE",
+       "nomJockey": "L.SALMON",
+       "poidsJockey": 67.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 80160,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 2,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GENERAL DESJY",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 74.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATORZE_LONGUEURS",
+        "rawValue": "14 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 80830,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "JOURNEE D'LA FEMME",
+       "nomJockey": "M.BARS HUGONOT",
+       "poidsJockey": 73.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 81160,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LISETTE D'ESTRUVAL",
+       "nomJockey": "K.DUBOURG",
+       "poidsJockey": 74.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 81900,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "PREMIER VERT",
+       "nomJockey": "Q.DEFONTAINE",
+       "poidsJockey": 71.5,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 84160,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    },
+    {
+     "date": 1782597600000,
+     "timezoneOffset": 7200000,
+     "hippodrome": "POMPADOUR",
+     "nomPrix": "PRIX GABRIEL JUGE",
+     "discipline": "CROSS",
+     "allocation": 23000,
+     "distance": 4500,
+     "nbParticipants": 7,
+     "tempsDuPremier": 399200,
+     "etatTerrain": "Bon souple",
+     "participants": [
+      {
+       "numPmu": 3,
+       "place": {
+        "place": 1,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "KING D'ECUPILLAC",
+       "nomJockey": "G.BOINARD",
+       "poidsJockey": 69.0,
+       "corde": null,
+       "distanceAvecPrecedent": null,
+       "itsHim": false,
+       "reductionKilometrique": 88710,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 4,
+       "place": {
+        "place": 2,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "ALL RIGHT NOW",
+       "nomJockey": "L.ZULIANI",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "DEUX_LONGUEURS_ET_DEMIE",
+        "rawValue": "2 L 1/2"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 88800,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_AUSTRALIENNES"
+      },
+      {
+       "numPmu": 1,
+       "place": {
+        "place": 3,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "LISETTE D'ESTRUVAL",
+       "nomJockey": "T.FIGUEIRA",
+       "poidsJockey": 71.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "HUIT_LONGUEURS",
+        "rawValue": "8 L"
+       },
+       "itsHim": true,
+       "reductionKilometrique": 89040,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      },
+      {
+       "numPmu": 7,
+       "place": {
+        "place": 4,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "CALDEIRA",
+       "nomJockey": "A.GLEYROUX",
+       "poidsJockey": 66.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "QUATRE_LONGUEURS",
+        "rawValue": "4 L"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 89200,
+       "distanceParcourue": null,
+       "oeillere": "OEILLERES_CLASSIQUE"
+      },
+      {
+       "numPmu": 5,
+       "place": {
+        "place": 5,
+        "rawValue": "DP",
+        "statusArrivee": "PLACE"
+       },
+       "nomCheval": "GARALUI DE BALME",
+       "nomJockey": "T. SPORLI",
+       "poidsJockey": 68.0,
+       "corde": null,
+       "distanceAvecPrecedent": {
+        "knownValue": "LOIN",
+        "rawValue": "Loin"
+       },
+       "itsHim": false,
+       "reductionKilometrique": 89950,
+       "distanceParcourue": null,
+       "oeillere": "SANS_OEILLERES"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
