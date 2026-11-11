@@ -404,7 +404,7 @@ def analyse_horse(h, course, perfs, trot, race_min_dist):
             score += 0.6 * (s - base)
         # poids
         kg_now = h.get("kg")
-        last_kg = next((p["kg"] for p in perfs if p.get("kg")), None)
+        last_kg = next((p["kg"] for p in perfs if p.get("kg") and (p.get("disc") == "PLAT") == plat), None)
         if kg_now and last_kg:
             dk = round(kg_now - last_kg, 1)
             pen = 0.012 * dk if dk > 0 else 0.008 * dk
