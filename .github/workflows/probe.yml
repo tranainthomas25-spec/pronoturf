@@ -1,0 +1,44 @@
+name: probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch samples
+        shell: python
+        run: |
+          import json, os, urllib.request, datetime
+          H = {"User-Agent": "Mozilla/5.0"}
+          def get(u):
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(u, headers=H), timeout=30) as r:
+                      return json.loads(r.read().decode("utf-8"))
+              except Exception as e:
+                  return {"__error": str(e), "url": u}
+          os.makedirs("probe", exist_ok=True)
+          d = datetime.date.today().strftime("%d%m%Y")
+          base = "https://online.turfinfo.api.pmu.fr/rest/client"
+          prog = get(f"{base}/1/programme/{d}?meteo=true&specialisation=INTERNET")
+          json.dump(prog, open("probe/programme.json", "w"), ensure_ascii=False, indent=1)
+          picked = {}
+          for reu in prog.get("programme", {}).get("reunions", []):
+              for c in reu.get("courses", []):
+                  disc = c.get("discipline")
+                  if disc not in picked:
+                      picked[disc] = (reu["numOfficiel"], c["numOrdre"])
+          for disc, (r, c) in picked.items():
+              for ver, path in [("1", "participants"), ("61", "performances-detaillees/pretty")]:
+                  data = get(f"{base}/{ver}/programme/{d}/R{r}/C{c}/{path}")
+                  name = path.split("/")[0]
+                  json.dump(data, open(f"probe/{disc}_R{r}C{c}_{name}.json", "w"), ensure_ascii=False, indent=1)
+      - name: Commit
+        run: |
+          git config user.name "pronoturf-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add probe
+          git commit -m "probe data" || echo nothing
+          git push
