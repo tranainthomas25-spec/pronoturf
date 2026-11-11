@@ -1,0 +1,16 @@
+{
+  "name": "PronoTurf",
+  "short_name": "PronoTurf",
+  "description": "Pronostics PMU automatiques : % de victoire et de top 3 pour chaque cheval",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b2a20",
+  "theme_color": "#0b2a20",
+  "lang": "fr",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PronoTurf</title>
+<meta name="theme-color" content="#0b2a20">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+:root{
+  --bg:#0b2a20; --bg2:#0f3528; --card:#123f30; --card2:#174a39; --line:#24604b;
+  --txt:#eef6f1; --mute:#9dbcae; --gold:#e8b949; --gold2:#f6d77e; --red:#ff6b5e; --orange:#ffa94d;
+  --green:#4fd18b; --blue:#6cb8ff;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:15px}
+body{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+header{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,#082119 0%,var(--bg) 100%);padding:calc(10px + env(safe-area-inset-top)) 14px 8px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px}
+.brand h1{font-size:20px;margin:0;letter-spacing:.5px}
+.brand h1 b{color:var(--gold)}
+.brand .maj{margin-left:auto;font-size:11px;color:var(--mute);text-align:right}
+.days{display:flex;gap:6px;overflow-x:auto;margin-top:10px;scrollbar-width:none}
+.days::-webkit-scrollbar,.reus::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--bg2);color:var(--txt);padding:7px 12px;border-radius:999px;font-size:13px;cursor:pointer;white-space:nowrap}
+.chip.on{background:var(--gold);color:#1d1503;border-color:var(--gold);font-weight:700}
+.reus{display:flex;gap:6px;overflow-x:auto;padding:10px 14px 0;scrollbar-width:none}
+.reu{flex:0 0 auto;padding:8px 12px;border-radius:12px;background:var(--card);border:1px solid var(--line);cursor:pointer;font-size:13px;line-height:1.2}
+.reu small{display:block;color:var(--mute);font-size:11px}
+.reu.on{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
+main{padding:12px 14px}
+.course{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+.chead{display:flex;align-items:center;gap:10px;padding:12px;cursor:pointer}
+.cnum{background:var(--gold);color:#1d1503;font-weight:800;border-radius:9px;padding:6px 7px;font-size:13px;min-width:40px;text-align:center}
+.cinfo{flex:1;min-width:0}
+.cname{font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cmeta{font-size:12px;color:var(--mute);margin-top:2px}
+.ctime{font-weight:700;font-size:14px;text-align:right}
+.ctime small{display:block;font-size:10px;font-weight:500;color:var(--mute)}
+.done{color:var(--green)!important}
+.top3mini{display:flex;gap:4px;padding:0 12px 12px}
+.tm{flex:1;background:var(--bg2);border-radius:9px;padding:6px 8px;font-size:12px;min-width:0}
+.tm b{color:var(--gold)}
+.tm span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cbody{border-top:1px solid var(--line);padding:10px 12px 12px;display:none}
+.course.open .cbody{display:block}
+.course.open .top3mini{display:none}
+.conds{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.tag{font-size:11.5px;background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:4px 7px;color:#d7ebe1}
+.tag.hl{border-color:var(--gold);color:var(--gold2)}
+.arr{font-size:13px;margin-bottom:10px;background:#0c3324;border:1px solid #2f7a5c;border-radius:10px;padding:8px 10px}
+.arr b{color:var(--green)}
+.horse{background:var(--bg2);border-radius:11px;margin-bottom:7px;border:1px solid transparent}
+.horse.open{border-color:var(--line)}
+.hrow{display:flex;align-items:center;gap:10px;padding:9px 10px;cursor:pointer}
+.hnum{width:30px;height:30px;border-radius:8px;background:#fff;color:#111;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px;flex:0 0 auto;position:relative}
+.hnum.p1{background:var(--gold)} .hnum.p2{background:#d9dde3} .hnum.p3{background:#d59a63}
+.hmain{flex:1;min-width:0}
+.hname{font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hsub{font-size:11.5px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bars{display:flex;gap:6px;margin-top:5px}
+.bar{flex:1;height:6px;background:#0a241b;border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:4px}
+.bar.w i{background:linear-gradient(90deg,var(--gold),var(--gold2))}
+.bar.p i{background:linear-gradient(90deg,#2fa36b,var(--green))}
+.pcts{text-align:right;flex:0 0 auto;font-variant-numeric:tabular-nums}
+.pcts .w{font-weight:800;color:var(--gold);font-size:15px}
+.pcts .p{font-size:12px;color:var(--green)}
+.pcts small{color:var(--mute);font-size:9.5px;display:block;line-height:1}
+.badges{display:flex;gap:3px;margin-top:4px;flex-wrap:wrap}
+.bdg{font-size:10px;padding:2px 6px;border-radius:5px;font-weight:700}
+.bdg.alert{background:var(--red);color:#fff}
+.bdg.warn{background:#5a3b12;color:var(--orange)}
+.bdg.good{background:#11452f;color:var(--green)}
+.res{position:absolute;top:-6px;right:-8px;font-size:10px;background:var(--green);color:#04210f;border-radius:6px;padding:1px 4px;font-weight:800}
+.hdet{display:none;padding:0 10px 10px}
+.horse.open .hdet{display:block}
+.al{font-size:12.5px;border-radius:8px;padding:6px 8px;margin-bottom:5px}
+.al.alert{background:rgba(255,107,94,.15);color:#ffb3ab;border:1px solid rgba(255,107,94,.5);font-weight:700}
+.al.warn{background:rgba(255,169,77,.1);color:#ffd09b}
+.al.good{background:rgba(79,209,139,.1);color:#a6efc7}
+.al.info{background:rgba(108,184,255,.08);color:#bcdcff}
+.fac{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;padding:6px 0;border-bottom:1px dashed #24604b}
+.fac:last-child{border-bottom:0}
+.fac .k{color:var(--mute);flex:0 0 42%}
+.fac .v{flex:1}
+.fac .s{flex:0 0 auto;font-weight:700;font-variant-numeric:tabular-nums}
+.pos{color:var(--green)} .neg{color:var(--red)} .neu{color:var(--mute)}
+.info2{font-size:12px;color:var(--mute);margin-top:6px}
+nav{position:fixed;bottom:0;left:0;right:0;background:#071d16;border-top:1px solid var(--line);display:flex;padding-bottom:env(safe-area-inset-bottom);z-index:30}
+nav button{flex:1;background:none;border:0;color:var(--mute);padding:10px 0 9px;font-size:11px;cursor:pointer}
+nav button .ic{font-size:20px;display:block;margin-bottom:2px}
+nav button.on{color:var(--gold)}
+.empty{text-align:center;color:var(--mute);padding:40px 10px}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.kpi b{font-size:24px;color:var(--gold);display:block}
+.kpi span{font-size:12px;color:var(--mute)}
+h2{font-size:16px;margin:16px 0 8px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left}
+th{color:var(--mute);font-weight:600;font-size:12px}
+td.r,th.r{text-align:right}
+.note{font-size:12px;color:var(--mute);line-height:1.5;background:var(--card);border-radius:12px;padding:12px;border:1px solid var(--line)}
+.next{background:linear-gradient(135deg,#1c5a43,#123f30);border:1px solid var(--gold);border-radius:14px;padding:12px;margin-bottom:12px;cursor:pointer}
+.next .t{font-size:11px;color:var(--gold2);text-transform:uppercase;letter-spacing:1px;font-weight:700}
+.next .n{font-weight:700;margin:3px 0 6px}
+.spin{width:28px;height:28px;border:3px solid var(--line);border-top-color:var(--gold);border-radius:50%;animation:s 1s linear infinite;margin:40px auto}
+@keyframes s{to{transform:rotate(360deg)}}
+.filters{display:flex;gap:6px;margin-bottom:10px;overflow-x:auto;scrollbar-width:none}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#123f30"/><path d="M17 18 A17 19 0 1 0 47 18" stroke="#e8b949" stroke-width="9" fill="none" stroke-linecap="round"/></svg>
+    <h1>Prono<b>Turf</b></h1>
+    <div class="maj" id="maj"></div>
+  </div>
+  <div class="days" id="days"></div>
+</header>
+<div class="reus" id="reus"></div>
+<main id="main"><div class="spin"></div></main>
+<nav>
+  <button id="tab-courses" class="on" onclick="setTab('courses')"><span class="ic">🏇</span>Courses</button>
+  <button id="tab-top" onclick="setTab('top')"><span class="ic">⭐</span>Meilleurs</button>
+  <button id="tab-alertes" onclick="setTab('alertes')"><span class="ic">⚠️</span>Alertes</button>
+  <button id="tab-stats" onclick="setTab('stats')"><span class="ic">📊</span>Réussite</button>
+</nav>
+<script>
+const S = {dates:[], date:null, doc:null, reu:null, tab:'courses', open:{}, hopen:{}, filt:'all'};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const CORDE = {CORDE_DROITE:'Corde à droite', CORDE_GAUCHE:'Corde à gauche'};
+const CAT = c => (c||'').replace(/_/g,' ').toLowerCase().replace(/^\w/, x=>x.toUpperCase());
+const FLAG = {FRA:'🇫🇷',BEL:'🇧🇪',SWE:'🇸🇪',HKG:'🇭🇰',ARG:'🇦🇷',GBR:'🇬🇧',IRL:'🇮🇪',USA:'🇺🇸',DEU:'🇩🇪',ITA:'🇮🇹',ESP:'🇪🇸',AUS:'🇦🇺',ZAF:'🇿🇦',CHE:'🇨🇭',NOR:'🇳🇴',DNK:'🇩🇰',FIN:'🇫🇮',NLD:'🇳🇱',AUT:'🇦🇹',URY:'🇺🇾',CHL:'🇨🇱',BRA:'🇧🇷',JPN:'🇯🇵',SGP:'🇸🇬',MAR:'🇲🇦',ARE:'🇦🇪',KOR:'🇰🇷',MUS:'🇲🇺'};
+
+function todayIso(off=0){const d=new Date(Date.now()+off*864e5);return d.toLocaleDateString('sv-SE',{timeZone:'Europe/Paris'})}
+function dayLabel(iso){
+  if(iso===todayIso()) return "Aujourd'hui"; if(iso===todayIso(1)) return 'Demain'; if(iso===todayIso(-1)) return 'Hier';
+  const d=new Date(iso+'T12:00:00'); return d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'});
+}
+async function getJSON(u){const r=await fetch(u+(u.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'}); if(!r.ok) throw new Error(r.status); return r.json();}
+
+async function init(){
+  try{
+    const idx = await getJSON('data/index.json');
+    S.dates = idx.dates || [];
+    $('#maj').innerHTML = 'Mise à jour<br>'+esc((idx.maj||'').slice(11))+' · '+esc((idx.maj||'').slice(8,10)+'/'+(idx.maj||'').slice(5,7));
+  }catch(e){ S.dates=[]; }
+  if(!S.dates.length){ $('#main').innerHTML='<div class="empty">Les pronostics arrivent… Le robot les prépare plusieurs fois par jour.</div>'; return; }
+  const t = todayIso();
+  S.date = S.dates.includes(t) ? t : S.dates[S.dates.length-1];
+  await loadDate(S.date);
+}
+async function loadDate(d){
+  S.date=d; S.doc=null; renderDays(); $('#reus').innerHTML=''; $('#main').innerHTML='<div class="spin"></div>';
+  try{ S.doc = await getJSON('data/'+d+'.json'); }catch(e){ $('#main').innerHTML='<div class="empty">Impossible de charger ce jour.</div>'; return; }
+  const reus = S.doc.reunions.filter(r=>r.courses.length);
+  if(!reus.find(r=>r.r===S.reu)) S.reu = (reus.find(r=>r.pays==='FRA')||reus[0]||{}).r;
+  render();
+}
+function renderDays(){
+  const list = S.dates.slice(-10);
+  $('#days').innerHTML = list.map(d=>`<button class="chip ${d===S.date?'on':''}" onclick="loadDate('${d}')">${dayLabel(d)}</button>`).join('');
+  const on=$('#days .on'); if(on) on.scrollIntoView({inline:'center',block:'nearest'});
+}
+function setTab(t){S.tab=t; document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.id==='tab-'+t)); render(); window.scrollTo(0,0);}
+function render(){
+  if(!S.doc) return;
+  if(S.tab==='stats'){ $('#reus').innerHTML=''; return renderStats(); }
+  if(S.tab==='top'){ $('#reus').innerHTML=''; return renderTop(); }
+  if(S.tab==='alertes'){ $('#reus').innerHTML=''; return renderAlertes(); }
+  const reus = S.doc.reunions.filter(r=>r.courses.length);
+  $('#reus').innerHTML = reus.map(r=>`<div class="reu ${r.r===S.reu?'on':''}" onclick="S.reu=${r.r};render()">R${r.r} ${FLAG[r.pays]||''}<small>${esc(r.hippo)}</small></div>`).join('');
+  const reu = reus.find(r=>r.r===S.reu); if(!reu){$('#main').innerHTML='<div class="empty">Aucune course.</div>';return;}
+  let html = '';
+  const nxt = nextCourse();
+  if(nxt && S.date===todayIso()) html += `<div class="next" onclick="goCourse(${nxt.r},${nxt.c})"><div class="t">Prochaine course · ${esc(nxt.heure)}</div><div class="n">R${nxt.r}C${nxt.c} ${esc(nxt.nom)}</div>${miniTop(nxt)}</div>`;
+  html += reu.courses.map(courseHTML).join('');
+  $('#main').innerHTML = html;
+}
+function nextCourse(){
+  const now = new Date().toLocaleTimeString('fr-FR',{timeZone:'Europe/Paris',hour:'2-digit',minute:'2-digit'});
+  let best=null;
+  for(const r of S.doc.reunions) for(const c of r.courses){ if(!c.heure||c.arrivee?.length||!c.chevaux?.length) continue; if(c.heure>=now && (!best||c.heure<best.heure)) best=c; }
+  return best;
+}
+function goCourse(r,c){ S.reu=r; S.open[r+'-'+c]=true; S.tab='courses'; setTab('courses'); setTimeout(()=>{const el=document.getElementById('c'+r+'-'+c); if(el) el.scrollIntoView({behavior:'smooth',block:'start'});},50); }
+function miniTop(c){
+  return `<div class="top3mini" style="padding:0">`+ (c.chevaux||[]).slice(0,3).map(h=>`<div class="tm"><span><b>${h.n}</b> ${esc(h.nom)}</span>${h.pw}% · top3 ${h.p3}%</div>`).join('') + `</div>`;
+}
+function courseHTML(c){
+  const key=c.r+'-'+c.c, open=S.open[key];
+  const fin = c.arrivee && c.arrivee.length;
+  const alerts = (c.chevaux||[]).reduce((n,h)=>n+h.a.filter(a=>a.t==='alert').length,0);
+  let h = `<div class="course ${open?'open':''}" id="c${key}"><div class="chead" onclick="tog('${key}')">
+    <div class="cnum">C${c.c}</div>
+    <div class="cinfo"><div class="cname">${esc(c.nom)}</div><div class="cmeta">${esc(c.discLabel)} · ${c.dist} m · ${c.partants} partants${alerts?` · <span style="color:var(--red)">⚠ ${alerts}</span>`:''}</div></div>
+    <div class="ctime ${fin?'done':''}">${esc(c.heure||'')}<small>${fin?'Arrivée':''}</small></div></div>`;
+  if(c.chevaux?.length) h += `<div class="top3mini">`+c.chevaux.slice(0,3).map(x=>`<div class="tm"><span><b>${x.n}</b> ${esc(x.nom)}</span>${x.pw}% · ${x.p3}%</div>`).join('')+`</div>`;
+  h += `<div class="cbody">`;
+  if(open) h += courseBody(c);
+  h += `</div></div>`;
+  return h;
+}
+function courseBody(c){
+  const trot = c.disc==='ATTELE'||c.disc==='MONTE';
+  let h = `<div class="conds"><span class="tag hl">${esc(c.discLabel)}</span><span class="tag">${c.dist} m</span>`;
+  if(c.corde) h+=`<span class="tag">${CORDE[c.corde]||c.corde}</span>`;
+  if(c.piste) h+=`<span class="tag">Piste ${esc(c.piste.toLowerCase())}</span>`;
+  if(c.terrain) h+=`<span class="tag">Terrain ${esc(c.terrain.toLowerCase())}</span>`;
+  if(c.cat && c.cat!=='INCONNU') h+=`<span class="tag">${esc(CAT(c.cat))}</span>`;
+  if(c.prix) h+=`<span class="tag">${(c.prix).toLocaleString('fr-FR')} €</span>`;
+  if(c.np?.length) h+=`<span class="tag">NP : ${c.np.join(', ')}</span>`;
+  h+=`</div>`;
+  if(c.arrivee?.length){
+    const top = c.fige?.[0] ?? c.chevaux?.[0]?.n;
+    const ok = c.arrivee[0]===top ? '✅ Gagnant trouvé' : (c.arrivee.slice(0,3).includes(top) ? '🟢 Notre n°1 est placé' : '❌ Notre n°1 non placé');
+    h+=`<div class="arr">Arrivée : <b>${c.arrivee.slice(0,5).join(' - ')}</b><br><span style="font-size:12px">${ok}</span></div>`;
+  }
+  h += `<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mute);padding:0 4px 5px"><span>Cheval</span><span>% gagner · % top 3</span></div>`;
+  h += (c.chevaux||[]).map(x=>horseHTML(c,x,trot)).join('');
+  if(!c.chevaux?.length) h+='<div class="empty">Partants pas encore disponibles.</div>';
+  return h;
+}
+function horseHTML(c,x,trot){
+  const key=c.r+'-'+c.c+'-'+x.n, open=S.hopen[key];
+  const rank = c.arrivee?.indexOf(x.n); const rk = rank>=0 && rank<5 ? `<span class="res">${rank+1}e</span>`:'';
+  const cls = rank===0?'p1':rank===1?'p2':rank===2?'p3':'';
+  const sub = trot ? `${esc(x.jockey||'')} · ${x.dist||''} m${x.def&&x.def!=='REFERRE_ANTERIEURS_POSTERIEURS'&&x.def!=='FERRE'?'':''}` : `${esc(x.jockey||'')} · ${x.kg?x.kg+' kg':''}${x.corde?' · corde '+x.corde:''}${x.valeur!=null?' · val. '+x.valeur:''}`;
+  const max = Math.max(...c.chevaux.map(h=>h.pw));
+  const badges = x.a.filter(a=>a.t!=='info').map(a=>`<span class="bdg ${a.t}">${a.t==='alert'?'⬆ HANDICAP':esc(short(a.m))}</span>`).join('');
+  let h = `<div class="horse ${open?'open':''}"><div class="hrow" onclick="htog('${key}')">
+    <div class="hnum ${cls}">${x.n}${rk}</div>
+    <div class="hmain"><div class="hname">${esc(x.nom)}</div><div class="hsub">${sub}</div>
+      <div class="bars"><div class="bar w"><i style="width:${Math.min(100,x.pw/max*100)}%"></i></div><div class="bar p"><i style="width:${x.p3}%"></i></div></div>
+      ${badges?`<div class="badges">${badges}</div>`:''}</div>
+    <div class="pcts"><div class="w">${x.pw}%</div><div class="p">${x.p3}%</div></div></div>`;
+  if(open){
+    h += `<div class="hdet">`;
+    h += x.a.map(a=>`<div class="al ${a.t}">${esc(a.m)}</div>`).join('');
+    h += x.f.map(f=>{const s=f.k.startsWith('Forme')?null:f.s; return `<div class="fac"><span class="k">${esc(f.k)}</span><span class="v">${esc(f.v)}</span><span class="s ${s==null?'neu':s>0.005?'pos':s<-0.005?'neg':'neu'}">${s==null?'':(s>0?'+':'')+Math.round(s*100)}</span></div>`}).join('');
+    h += `<div class="info2">Musique : ${esc(x.musique||'—')} · ${esc(x.entr||'')}${x.age?` · ${x.sexe}${x.age}`:''}</div>`;
+    h += `</div>`;
+  }
+  return h+`</div>`;
+}
+function short(m){
+  if(/recul/i.test(m)) return m.match(/\d+ m/)?.[0]+' recul';
+  if(/kg de plus/.test(m)) return '+'+m.match(/[\d.]+ kg/)?.[0];
+  if(/Descend en handicap/.test(m)) return '⬇ handicap';
+  if(/corde/.test(m)) return 'corde inédite';
+  if(/piste/.test(m)) return 'piste inédite';
+  if(/terrain/.test(m)) return 'terrain inédit';
+  return m.slice(0,18);
+}
+function tog(k){S.open[k]=!S.open[k]; render(); if(S.open[k]){const el=document.getElementById('c'+k); if(el) el.scrollIntoView({block:'start',behavior:'smooth'});} }
+function htog(k){S.hopen[k]=!S.hopen[k]; const y=window.scrollY; render(); window.scrollTo(0,y);}
+
+function allCourses(){ const out=[]; for(const r of S.doc.reunions) for(const c of r.courses) if(c.chevaux?.length) out.push({...c,hippo:r.hippo,pays:r.pays}); return out; }
+function renderTop(){
+  const list = allCourses().map(c=>({c, h:c.chevaux[0], gap:c.chevaux[0].pw-(c.chevaux[1]?.pw||0)})).sort((a,b)=>b.h.pw-a.h.pw);
+  let h = `<div class="note" style="margin-bottom:10px">Les chevaux du jour avec la plus forte probabilité de gagner, toutes réunions confondues.</div>`;
+  h += list.slice(0,30).map(({c,h:x})=>{
+    const fin=c.arrivee?.length, rank=fin?c.arrivee.indexOf(x.n):-1;
+    const res = fin ? (rank===0?'<span class="done">✅ Gagné</span>':rank>0&&rank<3?'<span class="done">🟢 '+(rank+1)+'e</span>':'<span style="color:var(--red)">❌</span>') : esc(c.heure||'');
+    return `<div class="course"><div class="chead" onclick="goCourse(${c.r},${c.c})"><div class="cnum">${x.n}</div><div class="cinfo"><div class="cname">${esc(x.nom)}</div><div class="cmeta">R${c.r}C${c.c} ${esc(c.hippo)} · ${esc(c.discLabel)} ${c.dist} m</div></div><div class="pcts"><div class="w">${x.pw}%</div><div class="p">${x.p3}%</div><small>${res}</small></div></div></div>`;
+  }).join('');
+  $('#main').innerHTML = h;
+}
+function renderAlertes(){
+  let items=[];
+  for(const c of allCourses()) for(const x of c.chevaux) for(const a of x.a) if(a.t==='alert'||a.t==='good'||(a.t==='warn'&&/recul|kg/.test(a.m))) items.push({c,x,a});
+  const ord={alert:0,warn:1,good:2}; items.sort((p,q)=>ord[p.a.t]-ord[q.a.t]||(p.c.heure||'').localeCompare(q.c.heure||''));
+  let h = `<div class="filters">${[['all','Toutes'],['alert','⬆ Monte en handicap'],['warn','Poids / recul'],['good','⬇ Descend']].map(([k,l])=>`<button class="chip ${S.filt===k?'on':''}" onclick="S.filt='${k}';render()">${l}</button>`).join('')}</div>`;
+  items = items.filter(i=>S.filt==='all'||i.a.t===S.filt);
+  if(!items.length) h+='<div class="empty">Aucune alerte de ce type.</div>';
+  h += items.slice(0,150).map(({c,x,a})=>`<div class="course" onclick="goCourse(${c.r},${c.c})"><div class="chead"><div class="cnum">${x.n}</div><div class="cinfo"><div class="cname">${esc(x.nom)}</div><div class="cmeta">${esc(c.heure||'')} · R${c.r}C${c.c} ${esc(c.hippo)} · ${x.pw}% / ${x.p3}%</div><div class="al ${a.t}" style="margin:6px 0 0">${esc(a.m)}</div></div></div></div>`).join('');
+  $('#main').innerHTML = h;
+}
+async function renderStats(){
+  $('#main').innerHTML='<div class="spin"></div>';
+  let st; try{ st = await getJSON('data/stats.json'); }catch(e){ st=null; }
+  const t = st?.total;
+  if(!t || !t.courses){ $('#main').innerHTML='<div class="empty">Les statistiques apparaîtront après les premières arrivées.</div>'; return; }
+  const pc=(a,b)=>b?Math.round(a/b*1000)/10:0;
+  let h = `<div class="kpis">
+    <div class="kpi"><b>${pc(t.gagnant,t.courses)}%</b><span>Notre n°1 gagne</span></div>
+    <div class="kpi"><b>${pc(t.place,t.courses)}%</b><span>Notre n°1 finit dans les 3</span></div>
+    <div class="kpi"><b>${pc(t.dans3,t.courses)}%</b><span>Le gagnant était dans notre top 3</span></div>
+    <div class="kpi"><b>${t.courses}</b><span>Courses analysées</span></div></div>`;
+  h += `<h2>Par discipline</h2><table><tr><th>Discipline</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th></tr>`+
+    Object.entries(st.disciplines).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="r">${v.courses}</td><td class="r">${pc(v.gagnant,v.courses)}%</td><td class="r">${pc(v.place,v.courses)}%</td></tr>`).join('')+`</table>`;
+  h += `<h2>Par jour</h2><table><tr><th>Jour</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th></tr>`+
+    st.jours.slice().reverse().map(d=>`<tr><td>${dayLabel(d.date)}</td><td class="r">${d.courses}</td><td class="r">${pc(d.gagnant,d.courses)}%</td><td class="r">${pc(d.place,d.courses)}%</td></tr>`).join('')+`</table>`;
+  h += `<h2>Comment ça marche</h2><div class="note">
+  Le robot récupère toutes les courses PMU (toutes réunions) plusieurs fois par jour et note chaque cheval :<br>
+  <b>Trot</b> : 5 dernières perfs, corde à droite/gauche, distance, recul.<br>
+  <b>Galop / obstacles</b> : 5 dernières perfs, 5 dernières sur le même type de piste, terrain, distance, poids, valeur de handicap, type de course.<br>
+  La cote n'est pas utilisée. Les pourcentages sont ajustés automatiquement à mesure que les résultats s'accumulent.<br><br>
+  Les paris comportent des risques : endettement, dépendance… Appelez le 09 74 75 13 13 (appel non surtaxé). Interdit aux mineurs.</div>`;
+  $('#main').innerHTML = h;
+}
+init();
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden && S.date){ const y=window.scrollY; getJSON('data/'+S.date+'.json').then(d=>{S.doc=d; render(); window.scrollTo(0,y);}).catch(()=>{}); }});
+</script>
+</body>
+</html>
