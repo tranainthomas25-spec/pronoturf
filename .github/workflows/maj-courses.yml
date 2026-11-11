@@ -1,0 +1,30 @@
+name: maj-courses
+on:
+  schedule:
+    - cron: "7 4-21 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: maj-courses
+  cancel-in-progress: false
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collecte et pronostics
+        run: python fetch.py
+      - name: Enregistrer
+        run: |
+          git config user.name "pronoturf-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git rm -rq --ignore-unmatch probe
+          git add data cache
+          git commit -qm "maj courses $(date -u +%Y-%m-%dT%H:%M)" || exit 0
+          for i in 1 2 3; do git push && exit 0; git pull --rebase -X ours -q; done
+          exit 1
