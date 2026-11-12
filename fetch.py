@@ -432,7 +432,7 @@ def analyse_horse(h, course, perfs, trot, race_min_dist):
         last_d = datetime.strptime(perfs[0]["d"], "%Y-%m-%d").date()
         jours = (ref - last_d).days
         if jours > 60:
-            pen = min(0.30, 0.03 + 0.0009 * (jours - 60))
+            pen = min(0.45, 0.03 + 0.0011 * (jours - 60))
             score -= pen
         else:
             pen = 0.0
