@@ -426,6 +426,23 @@ def analyse_horse(h, course, perfs, trot, race_min_dist):
                     alerts.append({"t": "good", "m": f"Descend en handicap : valeur {v_prev:g} → {v_now:g} ({dv:g})"})
             else:
                 factors.append({"k": "Valeur handicap", "v": f"{v_now:g} (pas de valeur connue avant)", "s": 0})
+    # fraicheur : temps depuis la derniere course (course de rentree)
+    ref = course.get("_date")
+    if perfs and ref:
+        last_d = datetime.strptime(perfs[0]["d"], "%Y-%m-%d").date()
+        jours = (ref - last_d).days
+        if jours > 60:
+            pen = min(0.30, 0.03 + 0.0009 * (jours - 60))
+            score -= pen
+        else:
+            pen = 0.0
+        mois = jours // 30
+        duree = f"{jours} jours" if jours < 60 else f"{mois} mois"
+        factors.append({"k": "Fraîcheur", "v": f"dernière course il y a {duree} ({last_d.strftime('%d/%m/%Y')})", "s": -round(pen, 3)})
+        if jours > 180:
+            alerts.append({"t": "alert", "m": f"RENTRÉE : n'a pas couru depuis {mois} mois (dernière course le {last_d.strftime('%d/%m/%Y')})"})
+        elif jours > 90:
+            alerts.append({"t": "warn", "m": f"Rentrée : n'a pas couru depuis {mois} mois"})
     # peu d'historique : on tire vers la moyenne
     if nhist < 3:
         score = (score * nhist + 0.35 * (3 - nhist)) / 3
@@ -569,6 +586,7 @@ def build_course(reu, c, part, pm, deep, vals, progs, model, arrivee, old):
     trot = (c.get("specialite") or "").startswith("TROT")
     partants = [p for p in (part or {}).get("participants", []) if p.get("statut") != "NON_PARTANT"]
     nonpartants = [p.get("numPmu") for p in (part or {}).get("participants", []) if p.get("statut") == "NON_PARTANT"]
+    c["_date"] = c.get("_date") or (datetime.fromtimestamp(c["heureDepart"] / 1000, tz=PARIS).date() if c.get("heureDepart") else datetime.now(PARIS).date())
     race_min = min((p.get("handicapDistance") or c.get("distance") or 0) for p in partants) if (trot and partants) else None
     horses = []
     for p in partants:

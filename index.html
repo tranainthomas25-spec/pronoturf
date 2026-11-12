@@ -230,11 +230,11 @@ function courseBody(c){
 }
 function horseHTML(c,x,trot){
   const key=c.r+'-'+c.c+'-'+x.n, open=S.hopen[key];
-  const rank = c.arrivee?.indexOf(x.n); const rk = rank>=0 && rank<5 ? `<span class="res">${rank+1}e</span>`:'';
+  const rank = c.arrivee?.indexOf(x.n); const rk = rank>=0 && rank<5 ? `<span class="res">${rank===0?'1er':(rank+1)+'e'}</span>`:'';
   const cls = rank===0?'p1':rank===1?'p2':rank===2?'p3':'';
   const sub = trot ? `${esc(x.jockey||'')} · ${x.dist||''} m${x.def&&x.def!=='REFERRE_ANTERIEURS_POSTERIEURS'&&x.def!=='FERRE'?'':''}` : `${esc(x.jockey||'')} · ${x.kg?x.kg+' kg':''}${x.corde?' · corde '+x.corde:''}${x.valeur!=null?' · val. '+x.valeur:''}`;
   const max = Math.max(...c.chevaux.map(h=>h.pw));
-  const badges = x.a.filter(a=>a.t!=='info').map(a=>`<span class="bdg ${a.t}">${a.t==='alert'?'⬆ HANDICAP':esc(short(a.m))}</span>`).join('');
+  const badges = x.a.filter(a=>a.t!=='info').map(a=>`<span class="bdg ${a.t}">${a.t==='alert'&&!/RENTRÉE/.test(a.m)?'⬆ HANDICAP':esc(short(a.m))}</span>`).join('');
   let h = `<div class="horse ${open?'open':''}"><div class="hrow" onclick="htog('${key}')">
     <div class="hnum ${cls}">${x.n}${rk}</div>
     <div class="hmain"><div class="hname">${esc(x.nom)}</div><div class="hsub">${sub}</div>
@@ -251,6 +251,8 @@ function horseHTML(c,x,trot){
   return h+`</div>`;
 }
 function short(m){
+  if(/RENTRÉE/.test(m)) return '⏳ RENTRÉE '+(m.match(/(\d+) mois/)?.[1]||'')+' mois';
+  if(/Rentrée/.test(m)) return 'rentrée '+(m.match(/(\d+) mois/)?.[1]||'')+' mois';
   if(/recul/i.test(m)) return m.match(/\d+ m/)?.[0]+' recul';
   if(/kg de plus/.test(m)) return '+'+m.match(/[\d.]+ kg/)?.[0];
   if(/Descend en handicap/.test(m)) return '⬇ handicap';
@@ -275,9 +277,9 @@ function renderTop(){
 }
 function renderAlertes(){
   let items=[];
-  for(const c of allCourses()) for(const x of c.chevaux) for(const a of x.a) if(a.t==='alert'||a.t==='good'||(a.t==='warn'&&/recul|kg/.test(a.m))) items.push({c,x,a});
+  for(const c of allCourses()) for(const x of c.chevaux) for(const a of x.a) if(a.t==='alert'||a.t==='good'||(a.t==='warn'&&/recul|kg|Rentrée/.test(a.m))) items.push({c,x,a});
   const ord={alert:0,warn:1,good:2}; items.sort((p,q)=>ord[p.a.t]-ord[q.a.t]||(p.c.heure||'').localeCompare(q.c.heure||''));
-  let h = `<div class="filters">${[['all','Toutes'],['alert','⬆ Monte en handicap'],['warn','Poids / recul'],['good','⬇ Descend']].map(([k,l])=>`<button class="chip ${S.filt===k?'on':''}" onclick="S.filt='${k}';render()">${l}</button>`).join('')}</div>`;
+  let h = `<div class="filters">${[['all','Toutes'],['alert','⬆ Handicap / rentrée'],['warn','Poids / recul / repos'],['good','⬇ Descend']].map(([k,l])=>`<button class="chip ${S.filt===k?'on':''}" onclick="S.filt='${k}';render()">${l}</button>`).join('')}</div>`;
   items = items.filter(i=>S.filt==='all'||i.a.t===S.filt);
   if(!items.length) h+='<div class="empty">Aucune alerte de ce type.</div>';
   h += items.slice(0,150).map(({c,x,a})=>`<div class="course" onclick="goCourse(${c.r},${c.c})"><div class="chead"><div class="cnum">${x.n}</div><div class="cinfo"><div class="cname">${esc(x.nom)}</div><div class="cmeta">${esc(c.heure||'')} · R${c.r}C${c.c} ${esc(c.hippo)} · ${x.pw}% / ${x.p3}%</div><div class="al ${a.t}" style="margin:6px 0 0">${esc(a.m)}</div></div></div></div>`).join('');
