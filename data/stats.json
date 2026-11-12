@@ -1,6 +1,6 @@
 {
  "total": {
-  "courses": 116,
+  "courses": 120,
   "gagnant": 23,
   "place": 54,
   "dans3": 53
@@ -27,7 +27,7 @@
    "place": 0
   },
   "Trot attelé": {
-   "courses": 59,
+   "courses": 63,
    "gagnant": 11,
    "place": 27
   },
@@ -46,7 +46,7 @@
   },
   {
    "date": "2026-11-12",
-   "courses": 22,
+   "courses": 26,
    "gagnant": 3,
    "place": 12
   }
