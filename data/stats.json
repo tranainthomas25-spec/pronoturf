@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 370,
-  "gagnant": 68,
-  "place": 180,
-  "dans3": 154
+  "courses": 376,
+  "gagnant": 69,
+  "place": 184,
+  "dans3": 155
  },
  "disciplines": {
   "Plat": {
-   "courses": 128,
-   "gagnant": 19,
-   "place": 62
+   "courses": 134,
+   "gagnant": 20,
+   "place": 66
   },
   "Steeple-chase": {
    "courses": 21,
@@ -64,9 +64,9 @@
   },
   {
    "date": "2026-11-15",
-   "courses": 88,
-   "gagnant": 17,
-   "place": 44
+   "courses": 94,
+   "gagnant": 18,
+   "place": 48
   }
  ]
 }
