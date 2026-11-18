@@ -1,13 +1,13 @@
 {
  "total": {
-  "courses": 484,
+  "courses": 485,
   "gagnant": 92,
   "place": 238,
-  "dans3": 193
+  "dans3": 194
  },
  "disciplines": {
   "Plat": {
-   "courses": 191,
+   "courses": 192,
    "gagnant": 32,
    "place": 96
   },
@@ -79,6 +79,12 @@
    "courses": 46,
    "gagnant": 9,
    "place": 24
+  },
+  {
+   "date": "2026-11-18",
+   "courses": 1,
+   "gagnant": 0,
+   "place": 0
   }
  ]
 }
