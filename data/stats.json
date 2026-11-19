@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 565,
-  "gagnant": 104,
-  "place": 271,
-  "dans3": 226
+  "courses": 568,
+  "gagnant": 105,
+  "place": 273,
+  "dans3": 229
  },
  "disciplines": {
   "Plat": {
@@ -27,14 +27,14 @@
    "place": 1
   },
   "Trot attelé": {
-   "courses": 240,
+   "courses": 242,
    "gagnant": 47,
-   "place": 115
+   "place": 116
   },
   "Trot monté": {
-   "courses": 28,
-   "gagnant": 4,
-   "place": 10
+   "courses": 29,
+   "gagnant": 5,
+   "place": 11
   }
  },
  "jours": [
@@ -88,9 +88,9 @@
   },
   {
    "date": "2026-11-19",
-   "courses": 20,
-   "gagnant": 4,
-   "place": 8
+   "courses": 23,
+   "gagnant": 5,
+   "place": 10
   }
  ]
 }
