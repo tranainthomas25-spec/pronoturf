@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 551,
+  "courses": 555,
   "gagnant": 101,
-  "place": 264,
-  "dans3": 220
+  "place": 266,
+  "dans3": 221
  },
  "disciplines": {
   "Plat": {
-   "courses": 230,
+   "courses": 232,
    "gagnant": 40,
-   "place": 113
+   "place": 114
   },
   "Steeple-chase": {
    "courses": 23,
@@ -17,9 +17,9 @@
    "place": 11
   },
   "Haies": {
-   "courses": 30,
+   "courses": 32,
    "gagnant": 7,
-   "place": 15
+   "place": 16
   },
   "Cross": {
    "courses": 3,
@@ -88,9 +88,9 @@
   },
   {
    "date": "2026-11-19",
-   "courses": 6,
+   "courses": 10,
    "gagnant": 1,
-   "place": 1
+   "place": 3
   }
  ]
 }
