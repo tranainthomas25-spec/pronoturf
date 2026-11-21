@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 653,
+  "courses": 662,
   "gagnant": 123,
-  "place": 313,
-  "dans3": 269
+  "place": 317,
+  "dans3": 272
  },
  "disciplines": {
   "Plat": {
@@ -12,14 +12,14 @@
    "place": 135
   },
   "Steeple-chase": {
-   "courses": 29,
+   "courses": 30,
    "gagnant": 6,
    "place": 16
   },
   "Haies": {
-   "courses": 37,
+   "courses": 39,
    "gagnant": 8,
-   "place": 19
+   "place": 20
   },
   "Cross": {
    "courses": 3,
@@ -27,12 +27,12 @@
    "place": 1
   },
   "Trot attelé": {
-   "courses": 274,
+   "courses": 279,
    "gagnant": 53,
-   "place": 130
+   "place": 133
   },
   "Trot monté": {
-   "courses": 37,
+   "courses": 38,
    "gagnant": 5,
    "place": 12
   }
@@ -100,9 +100,9 @@
   },
   {
    "date": "2026-11-21",
-   "courses": 12,
+   "courses": 21,
    "gagnant": 1,
-   "place": 4
+   "place": 8
   }
  ]
 }
