@@ -492,9 +492,14 @@ def probabilities(scores, k, sims=6000, seed=42):
     return pw, [t / sims for t in top3]
 
 # ----------------------------------------------------------------- traitement d'un jour
+PAYS_EXCLUS = {"USA"}
+
+
 def process_day(d, model):
     prog = get(f"{BASE}/1/programme/{dkey(d)}?meteo=true&specialisation=INTERNET")
     reunions = (prog or {}).get("programme", {}).get("reunions", [])
+    # courses aux Etats-Unis exclues
+    reunions = [r for r in reunions if (r.get("pays") or {}).get("code") not in PAYS_EXCLUS]
     if not reunions:
         print(f"{iso(d)} : pas de programme")
         return None
@@ -641,12 +646,15 @@ def update_stats():
     files = sorted(f for f in os.listdir(DATA) if re.match(r"\d{4}-\d{2}-\d{2}\.json$", f))
     tot = {"courses": 0, "gagnant": 0, "place": 0, "dans3": 0}
     by_disc = {}
+    by_hippo = {}
     samples = []
     days = []
     for f in files:
         doc = jload(os.path.join(DATA, f), {})
         dn = {"date": doc.get("date"), "courses": 0, "gagnant": 0, "place": 0}
         for reu in doc.get("reunions", []):
+            if reu.get("pays") in PAYS_EXCLUS:
+                continue
             for c in reu.get("courses", []):
                 arr = c.get("arrivee") or []
                 ch = c.get("chevaux") or []
@@ -661,11 +669,13 @@ def update_stats():
                 dn["courses"] += 1; dn["gagnant"] += g; dn["place"] += pl
                 b = by_disc.setdefault(c.get("discLabel") or c.get("disc"), {"courses": 0, "gagnant": 0, "place": 0})
                 b["courses"] += 1; b["gagnant"] += g; b["place"] += pl
+                hb = by_hippo.setdefault(reu.get("hippo") or "?", {"pays": reu.get("pays"), "courses": 0, "gagnant": 0, "place": 0, "dans3": 0})
+                hb["courses"] += 1; hb["gagnant"] += g; hb["place"] += pl; hb["dans3"] += in3
                 if arr[0] in [x["n"] for x in ch]:
                     samples.append(([x["score"] for x in ch], [x["n"] for x in ch].index(arr[0])))
         if dn["courses"]:
             days.append(dn)
-    jsave(os.path.join(DATA, "stats.json"), {"total": tot, "disciplines": by_disc, "jours": days[-60:]}, pretty=True)
+    jsave(os.path.join(DATA, "stats.json"), {"total": tot, "disciplines": by_disc, "hippodromes": by_hippo, "jours": days[-60:]}, pretty=True)
     # calibration du parametre k (max de vraisemblance)
     model = jload(os.path.join(DATA, "model.json"), {"k": 5.0}) or {"k": 5.0}
     if len(samples) >= 150:
