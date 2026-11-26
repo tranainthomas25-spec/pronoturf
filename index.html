@@ -309,15 +309,30 @@ async function renderStats(){
     h += `<h2>Par hippodrome</h2><table><tr><th>Hippodrome</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th><th class="r">Gag. dans top 3</th></tr>`+
       hs.map(([k,v])=>`<tr><td>${FLAG[v.pays]||''} ${esc(k)}</td><td class="r">${v.courses}</td><td class="r">${pc(v.gagnant,v.courses)}%</td><td class="r">${pc(v.place,v.courses)}%</td><td class="r">${pc(v.dans3,v.courses)}%</td></tr>`).join('')+`</table>`;
   }
+  h += `<h2>Classement jockeys / drivers</h2><div id="jk"><div class="spin"></div></div>`;
   h += `<h2>Par jour</h2><table><tr><th>Jour</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th></tr>`+
     st.jours.slice().reverse().map(d=>`<tr><td>${dayLabel(d.date)}</td><td class="r">${d.courses}</td><td class="r">${pc(d.gagnant,d.courses)}%</td><td class="r">${pc(d.place,d.courses)}%</td></tr>`).join('')+`</table>`;
   h += `<h2>Comment ça marche</h2><div class="note">
   Le robot récupère toutes les courses PMU (toutes réunions) plusieurs fois par jour et note chaque cheval :<br>
+  <b>Jockey / driver</b> : réussite sur 12 mois (victoires et places par rapport à ce qui était attendu vu le nombre de partants).<br>
   <b>Trot</b> : 5 dernières perfs, corde à droite/gauche, distance, recul.<br>
   <b>Galop / obstacles</b> : 5 dernières perfs, 5 dernières sur le même type de piste, terrain, distance, poids, valeur de handicap, type de course.<br>
   La cote n'est pas utilisée. Les pourcentages sont ajustés automatiquement à mesure que les résultats s'accumulent.<br><br>
   Les paris comportent des risques : endettement, dépendance… Appelez le 09 74 75 13 13 (appel non surtaxé). Interdit aux mineurs.</div>`;
   $('#main').innerHTML = h;
+  renderJockeys();
+}
+async function renderJockeys(){
+  let j; try{ j = await getJSON('data/jockeys.json'); }catch(e){ j=null; }
+  const el=$('#jk'); if(!el) return;
+  if(!j){ el.innerHTML='<div class="note">Le classement apparaîtra après la prochaine mise à jour du robot.</div>'; return; }
+  const g = S.jkGrp || 'galop', list = j[g] || [];
+  let h = `<div class="filters">${[['galop','🏇 Jockeys (galop)'],['trot','🐎 Drivers (trot)']].map(([k,l])=>`<button class="chip ${g===k?'on':''}" onclick="S.jkGrp='${k}';renderJockeys()">${l}</button>`).join('')}</div>`;
+  h += `<div class="note" style="margin-bottom:8px">Indice 100 = réussite moyenne. 150 = gagne et se place 50 % plus souvent qu'attendu. Minimum 40 montes sur 12 mois.</div>`;
+  if(!list.length) h += `<div class="note">Pas encore assez de montes connues${g==='trot'?' pour les drivers : le robot les accumule à chaque passage, le classement se remplira dans les prochains jours':''}.</div>`;
+  else h += `<table><tr><th>#</th><th>Nom</th><th class="r">Montes</th><th class="r">Gagn.</th><th class="r">Placé</th><th class="r">Indice</th></tr>`+
+    list.map((x,i)=>`<tr><td>${i+1}</td><td>${esc(x.nom)}</td><td class="r">${x.n}</td><td class="r">${x.g}%</td><td class="r">${x.p}%</td><td class="r"><b style="color:var(--gold)">${x.i}</b></td></tr>`).join('')+`</table>`;
+  el.innerHTML = h;
 }
 init();
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
