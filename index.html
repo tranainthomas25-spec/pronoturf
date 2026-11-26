@@ -194,7 +194,7 @@ function nextCourse(){
 }
 function goCourse(r,c){ S.reu=r; S.open[r+'-'+c]=true; S.tab='courses'; setTab('courses'); setTimeout(()=>{const el=document.getElementById('c'+r+'-'+c); if(el) el.scrollIntoView({behavior:'smooth',block:'start'});},50); }
 function miniTop(c){
-  return `<div class="top3mini" style="padding:0">`+ (c.chevaux||[]).slice(0,3).map(h=>`<div class="tm"><span><b>${h.n}</b> ${esc(h.nom)}</span>${h.pw}% · top3 ${h.p3}%</div>`).join('') + `</div>`;
+  return `<div class="top3mini" style="padding:0">`+ (c.chevaux||[]).slice(0,3).map(h=>`<div class="tm"><span><b>${h.n}</b> ${esc(h.nom)}</span>${h.pw}% · placé ${h.p3}%</div>`).join('') + `</div>`;
 }
 function courseHTML(c){
   const key=c.r+'-'+c.c, open=S.open[key];
@@ -225,7 +225,7 @@ function courseBody(c){
     const ok = c.arrivee[0]===top ? '✅ Gagnant trouvé' : (c.arrivee.slice(0,3).includes(top) ? '🟢 Notre n°1 est placé' : '❌ Notre n°1 non placé');
     h+=`<div class="arr">Arrivée : <b>${c.arrivee.slice(0,5).join(' - ')}</b><br><span style="font-size:12px">${ok}</span></div>`;
   }
-  h += `<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mute);padding:0 4px 5px"><span>Cheval</span><span>% gagner · % top 3</span></div>`;
+  h += `<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--mute);padding:0 4px 5px"><span>Cheval</span><span>% gagner · % placé</span></div>`;
   h += (c.chevaux||[]).map(x=>horseHTML(c,x,trot)).join('');
   if(!c.chevaux?.length) h+='<div class="empty">Partants pas encore disponibles.</div>';
   return h;
