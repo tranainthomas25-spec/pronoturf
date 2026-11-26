@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 904,
-  "gagnant": 171,
-  "place": 426,
-  "dans3": 373
+  "courses": 905,
+  "gagnant": 172,
+  "place": 427,
+  "dans3": 374
  },
  "disciplines": {
   "Plat": {
-   "courses": 372,
-   "gagnant": 70,
-   "place": 177
+   "courses": 373,
+   "gagnant": 71,
+   "place": 178
   },
   "Steeple-chase": {
    "courses": 37,
@@ -492,6 +492,13 @@
    "gagnant": 1,
    "place": 3,
    "dans3": 2
+  },
+  "LIGNIERES": {
+   "pays": "FRA",
+   "courses": 1,
+   "gagnant": 1,
+   "place": 1,
+   "dans3": 1
   }
  },
  "jours": [
@@ -584,6 +591,12 @@
    "courses": 59,
    "gagnant": 11,
    "place": 24
+  },
+  {
+   "date": "2026-11-26",
+   "courses": 1,
+   "gagnant": 1,
+   "place": 1
   }
  ]
 }
