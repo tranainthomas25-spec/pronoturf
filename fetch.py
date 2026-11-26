@@ -462,7 +462,8 @@ def fmt_place(p):
 
 
 def probabilities(scores, k, sims=6000, seed=42):
-    """Proba de victoire (softmax) et de top 3 (Plackett-Luce, simulation)."""
+    """Proba de victoire (softmax) et de place (Plackett-Luce, simulation).
+    Regle PMU : 7 partants ou moins -> places sur les 2 premiers, sinon les 3 premiers."""
     if not scores:
         return [], []
     mx = max(scores)
@@ -470,14 +471,15 @@ def probabilities(scores, k, sims=6000, seed=42):
     tot = sum(ex)
     pw = [e / tot for e in ex]
     n = len(scores)
-    if n <= 3:
+    places = 2 if n <= 7 else 3
+    if n <= places:
         return pw, [1.0] * n
     rnd = random.Random(seed)
     top3 = [0] * n
     for _ in range(sims):
         w = ex[:]
         rest = tot
-        for _pos in range(3):
+        for _pos in range(places):
             x = rnd.random() * rest
             acc = 0.0
             for i in range(n):
