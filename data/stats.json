@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 927,
+  "courses": 931,
   "gagnant": 176,
-  "place": 435,
-  "dans3": 383
+  "place": 437,
+  "dans3": 386
  },
  "disciplines": {
   "Plat": {
@@ -27,12 +27,12 @@
    "place": 4
   },
   "Trot attelé": {
-   "courses": 382,
+   "courses": 385,
    "gagnant": 70,
-   "place": 175
+   "place": 177
   },
   "Trot monté": {
-   "courses": 57,
+   "courses": 58,
    "gagnant": 10,
    "place": 23
   }
@@ -124,10 +124,10 @@
   },
   "VINCENNES": {
    "pays": "FRA",
-   "courses": 97,
+   "courses": 99,
    "gagnant": 19,
    "place": 46,
-   "dans3": 33
+   "dans3": 34
   },
   "AVENCHES": {
    "pays": "CHE",
@@ -362,10 +362,10 @@
   },
   "MAUQUENCHY": {
    "pays": "FRA",
-   "courses": 8,
+   "courses": 10,
    "gagnant": 0,
-   "place": 3,
-   "dans3": 4
+   "place": 5,
+   "dans3": 6
   },
   "PAU": {
    "pays": "FRA",
@@ -594,9 +594,9 @@
   },
   {
    "date": "2026-11-26",
-   "courses": 23,
+   "courses": 27,
    "gagnant": 5,
-   "place": 9
+   "place": 11
   }
  ]
 }
