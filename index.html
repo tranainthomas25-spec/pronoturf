@@ -137,6 +137,7 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const CORDE = {CORDE_DROITE:'Corde à droite', CORDE_GAUCHE:'Corde à gauche'};
 const CAT = c => (c||'').replace(/_/g,' ').toLowerCase().replace(/^\w/, x=>x.toUpperCase());
+const PAYS_EXCLUS = ['USA'];
 const FLAG = {FRA:'🇫🇷',BEL:'🇧🇪',SWE:'🇸🇪',HKG:'🇭🇰',ARG:'🇦🇷',GBR:'🇬🇧',IRL:'🇮🇪',USA:'🇺🇸',DEU:'🇩🇪',ITA:'🇮🇹',ESP:'🇪🇸',AUS:'🇦🇺',ZAF:'🇿🇦',CHE:'🇨🇭',NOR:'🇳🇴',DNK:'🇩🇰',FIN:'🇫🇮',NLD:'🇳🇱',AUT:'🇦🇹',URY:'🇺🇾',CHL:'🇨🇱',BRA:'🇧🇷',JPN:'🇯🇵',SGP:'🇸🇬',MAR:'🇲🇦',ARE:'🇦🇪',KOR:'🇰🇷',MUS:'🇲🇺'};
 
 function todayIso(off=0){const d=new Date(Date.now()+off*864e5);return d.toLocaleDateString('sv-SE',{timeZone:'Europe/Paris'})}
@@ -157,9 +158,10 @@ async function init(){
   S.date = S.dates.includes(t) ? t : S.dates[S.dates.length-1];
   await loadDate(S.date);
 }
+function clean(doc){ if(doc?.reunions) doc.reunions = doc.reunions.filter(r=>!PAYS_EXCLUS.includes(r.pays)); return doc; }
 async function loadDate(d){
   S.date=d; S.doc=null; renderDays(); $('#reus').innerHTML=''; $('#main').innerHTML='<div class="spin"></div>';
-  try{ S.doc = await getJSON('data/'+d+'.json'); }catch(e){ $('#main').innerHTML='<div class="empty">Impossible de charger ce jour.</div>'; return; }
+  try{ S.doc = clean(await getJSON('data/'+d+'.json')); }catch(e){ $('#main').innerHTML='<div class="empty">Impossible de charger ce jour.</div>'; return; }
   const reus = S.doc.reunions.filter(r=>r.courses.length);
   if(!reus.find(r=>r.r===S.reu)) S.reu = (reus.find(r=>r.pays==='FRA')||reus[0]||{}).r;
   render();
@@ -301,6 +303,11 @@ async function renderStats(){
     <div class="kpi"><b>${t.courses}</b><span>Courses analysées</span></div></div>`;
   h += `<h2>Par discipline</h2><table><tr><th>Discipline</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th></tr>`+
     Object.entries(st.disciplines).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="r">${v.courses}</td><td class="r">${pc(v.gagnant,v.courses)}%</td><td class="r">${pc(v.place,v.courses)}%</td></tr>`).join('')+`</table>`;
+  if(st.hippodromes){
+    const hs = Object.entries(st.hippodromes).sort((a,b)=>b[1].courses-a[1].courses);
+    h += `<h2>Par hippodrome</h2><table><tr><th>Hippodrome</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th><th class="r">Gag. dans top 3</th></tr>`+
+      hs.map(([k,v])=>`<tr><td>${FLAG[v.pays]||''} ${esc(k)}</td><td class="r">${v.courses}</td><td class="r">${pc(v.gagnant,v.courses)}%</td><td class="r">${pc(v.place,v.courses)}%</td><td class="r">${pc(v.dans3,v.courses)}%</td></tr>`).join('')+`</table>`;
+  }
   h += `<h2>Par jour</h2><table><tr><th>Jour</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th></tr>`+
     st.jours.slice().reverse().map(d=>`<tr><td>${dayLabel(d.date)}</td><td class="r">${d.courses}</td><td class="r">${pc(d.gagnant,d.courses)}%</td><td class="r">${pc(d.place,d.courses)}%</td></tr>`).join('')+`</table>`;
   h += `<h2>Comment ça marche</h2><div class="note">
@@ -313,7 +320,7 @@ async function renderStats(){
 }
 init();
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
-document.addEventListener('visibilitychange',()=>{ if(!document.hidden && S.date){ const y=window.scrollY; getJSON('data/'+S.date+'.json').then(d=>{S.doc=d; render(); window.scrollTo(0,y);}).catch(()=>{}); }});
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden && S.date){ const y=window.scrollY; getJSON('data/'+S.date+'.json').then(d=>{S.doc=clean(d); render(); window.scrollTo(0,y);}).catch(()=>{}); }});
 </script>
 </body>
 </html>
