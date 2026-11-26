@@ -1,18 +1,18 @@
 {
  "total": {
-  "courses": 918,
-  "gagnant": 173,
-  "place": 430,
-  "dans3": 379
+  "courses": 923,
+  "gagnant": 175,
+  "place": 432,
+  "dans3": 382
  },
  "disciplines": {
   "Plat": {
-   "courses": 383,
-   "gagnant": 71,
-   "place": 180
+   "courses": 384,
+   "gagnant": 72,
+   "place": 181
   },
   "Steeple-chase": {
-   "courses": 38,
+   "courses": 39,
    "gagnant": 12,
    "place": 23
   },
@@ -22,17 +22,17 @@
    "place": 28
   },
   "Cross": {
-   "courses": 6,
-   "gagnant": 1,
-   "place": 3
+   "courses": 7,
+   "gagnant": 2,
+   "place": 4
   },
   "Trot attelé": {
-   "courses": 379,
+   "courses": 380,
    "gagnant": 69,
    "place": 173
   },
   "Trot monté": {
-   "courses": 56,
+   "courses": 57,
    "gagnant": 10,
    "place": 23
   }
@@ -124,10 +124,10 @@
   },
   "VINCENNES": {
    "pays": "FRA",
-   "courses": 93,
+   "courses": 95,
    "gagnant": 18,
    "place": 44,
-   "dans3": 31
+   "dans3": 32
   },
   "AVENCHES": {
    "pays": "CHE",
@@ -138,10 +138,10 @@
   },
   "CHANTILLY": {
    "pays": "FRA",
-   "courses": 37,
-   "gagnant": 3,
-   "place": 14,
-   "dans3": 11
+   "courses": 38,
+   "gagnant": 4,
+   "place": 15,
+   "dans3": 12
   },
   "AMIENS": {
    "pays": "FRA",
@@ -495,10 +495,10 @@
   },
   "LIGNIERES": {
    "pays": "FRA",
-   "courses": 7,
-   "gagnant": 1,
-   "place": 3,
-   "dans3": 3
+   "courses": 9,
+   "gagnant": 2,
+   "place": 4,
+   "dans3": 4
   }
  },
  "jours": [
@@ -594,9 +594,9 @@
   },
   {
    "date": "2026-11-26",
-   "courses": 14,
-   "gagnant": 2,
-   "place": 4
+   "courses": 19,
+   "gagnant": 4,
+   "place": 6
   }
  ]
 }
