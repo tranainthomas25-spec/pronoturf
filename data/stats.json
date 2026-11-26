@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 941,
-  "gagnant": 179,
-  "place": 442,
-  "dans3": 391
+  "courses": 943,
+  "gagnant": 181,
+  "place": 444,
+  "dans3": 393
  },
  "disciplines": {
   "Plat": {
@@ -27,9 +27,9 @@
    "place": 4
   },
   "Trot attelé": {
-   "courses": 394,
-   "gagnant": 73,
-   "place": 182
+   "courses": 396,
+   "gagnant": 75,
+   "place": 184
   },
   "Trot monté": {
    "courses": 59,
@@ -68,10 +68,10 @@
   },
   "MONS (GHLIN)": {
    "pays": "BEL",
-   "courses": 27,
-   "gagnant": 10,
-   "place": 17,
-   "dans3": 14
+   "courses": 28,
+   "gagnant": 11,
+   "place": 18,
+   "dans3": 15
   },
   "SAINT BRIEUC": {
    "pays": "FRA",
@@ -362,10 +362,10 @@
   },
   "MAUQUENCHY": {
    "pays": "FRA",
-   "courses": 15,
-   "gagnant": 0,
-   "place": 6,
-   "dans3": 8
+   "courses": 16,
+   "gagnant": 1,
+   "place": 7,
+   "dans3": 9
   },
   "PAU": {
    "pays": "FRA",
@@ -594,9 +594,9 @@
   },
   {
    "date": "2026-11-26",
-   "courses": 37,
-   "gagnant": 8,
-   "place": 16
+   "courses": 39,
+   "gagnant": 10,
+   "place": 18
   }
  ]
 }
