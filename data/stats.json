@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 952,
-  "gagnant": 179,
-  "place": 447,
-  "dans3": 389
+  "courses": 904,
+  "gagnant": 171,
+  "place": 426,
+  "dans3": 373
  },
  "disciplines": {
   "Plat": {
-   "courses": 420,
-   "gagnant": 78,
-   "place": 198
+   "courses": 372,
+   "gagnant": 70,
+   "place": 177
   },
   "Steeple-chase": {
    "courses": 37,
@@ -37,6 +37,463 @@
    "place": 23
   }
  },
+ "hippodromes": {
+  "LA CEPIERE": {
+   "pays": "FRA",
+   "courses": 32,
+   "gagnant": 3,
+   "place": 14,
+   "dans3": 11
+  },
+  "STRASBOURG": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 1,
+   "place": 3,
+   "dans3": 2
+  },
+  "COMPIEGNE": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 2,
+   "place": 3,
+   "dans3": 6
+  },
+  "LYON LA SOIE": {
+   "pays": "FRA",
+   "courses": 15,
+   "gagnant": 2,
+   "place": 7,
+   "dans3": 7
+  },
+  "MONS (GHLIN)": {
+   "pays": "BEL",
+   "courses": 22,
+   "gagnant": 7,
+   "place": 13,
+   "dans3": 11
+  },
+  "SAINT BRIEUC": {
+   "pays": "FRA",
+   "courses": 16,
+   "gagnant": 6,
+   "place": 10,
+   "dans3": 9
+  },
+  "HAPPY VALLEY": {
+   "pays": "HKG",
+   "courses": 27,
+   "gagnant": 6,
+   "place": 15,
+   "dans3": 12
+  },
+  "SOLVALLA": {
+   "pays": "SWE",
+   "courses": 30,
+   "gagnant": 7,
+   "place": 14,
+   "dans3": 15
+  },
+  "SAN ISIDRO": {
+   "pays": "ARG",
+   "courses": 29,
+   "gagnant": 11,
+   "place": 18,
+   "dans3": 19
+  },
+  "LA CAPELLE": {
+   "pays": "FRA",
+   "courses": 7,
+   "gagnant": 0,
+   "place": 2,
+   "dans3": 3
+  },
+  "CHATEAUBRIANT": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 1,
+   "place": 2,
+   "dans3": 1
+  },
+  "GRAIGNES": {
+   "pays": "FRA",
+   "courses": 24,
+   "gagnant": 3,
+   "place": 11,
+   "dans3": 10
+  },
+  "VINCENNES": {
+   "pays": "FRA",
+   "courses": 91,
+   "gagnant": 17,
+   "place": 43,
+   "dans3": 29
+  },
+  "AVENCHES": {
+   "pays": "CHE",
+   "courses": 10,
+   "gagnant": 2,
+   "place": 6,
+   "dans3": 7
+  },
+  "CHANTILLY": {
+   "pays": "FRA",
+   "courses": 32,
+   "gagnant": 3,
+   "place": 14,
+   "dans3": 10
+  },
+  "AMIENS": {
+   "pays": "FRA",
+   "courses": 16,
+   "gagnant": 2,
+   "place": 5,
+   "dans3": 7
+  },
+  "SON PARDO": {
+   "pays": "ESP",
+   "courses": 6,
+   "gagnant": 2,
+   "place": 4,
+   "dans3": 4
+  },
+  "CONCEPCION": {
+   "pays": "CHL",
+   "courses": 17,
+   "gagnant": 3,
+   "place": 10,
+   "dans3": 3
+  },
+  "CASABLANCA": {
+   "pays": "MAR",
+   "courses": 10,
+   "gagnant": 2,
+   "place": 5,
+   "dans3": 3
+  },
+  "LYON-PARILLY": {
+   "pays": "FRA",
+   "courses": 16,
+   "gagnant": 7,
+   "place": 12,
+   "dans3": 9
+  },
+  "SAINT-CLOUD": {
+   "pays": "FRA",
+   "courses": 19,
+   "gagnant": 4,
+   "place": 9,
+   "dans3": 8
+  },
+  "WOLVEGA": {
+   "pays": "NLD",
+   "courses": 19,
+   "gagnant": 5,
+   "place": 9,
+   "dans3": 9
+  },
+  "SHA TIN (HONG KONG)": {
+   "pays": "HKG",
+   "courses": 10,
+   "gagnant": 2,
+   "place": 6,
+   "dans3": 6
+  },
+  "BORELY": {
+   "pays": "FRA",
+   "courses": 24,
+   "gagnant": 1,
+   "place": 6,
+   "dans3": 7
+  },
+  "AUTEUIL": {
+   "pays": "FRA",
+   "courses": 25,
+   "gagnant": 6,
+   "place": 11,
+   "dans3": 13
+  },
+  "PORNICHET": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 0,
+   "place": 4,
+   "dans3": 3
+  },
+  "CHILE": {
+   "pays": "CHL",
+   "courses": 11,
+   "gagnant": 0,
+   "place": 2,
+   "dans3": 0
+  },
+  "CAEN": {
+   "pays": "FRA",
+   "courses": 9,
+   "gagnant": 1,
+   "place": 3,
+   "dans3": 3
+  },
+  "TOOWOOMBA": {
+   "pays": "AUS",
+   "courses": 3,
+   "gagnant": 2,
+   "place": 3,
+   "dans3": 2
+  },
+  "CHELTENHAM": {
+   "pays": "GBR",
+   "courses": 13,
+   "gagnant": 0,
+   "place": 4,
+   "dans3": 6
+  },
+  "ESKILSTUNA": {
+   "pays": "SWE",
+   "courses": 4,
+   "gagnant": 0,
+   "place": 2,
+   "dans3": 0
+  },
+  "KRIEAU (VIENNE)": {
+   "pays": "AUT",
+   "courses": 5,
+   "gagnant": 3,
+   "place": 4,
+   "dans3": 4
+  },
+  "BEAUMONT DE LOMAGNE": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 2,
+   "place": 3,
+   "dans3": 5
+  },
+  "LAVAL": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 0,
+   "place": 3,
+   "dans3": 2
+  },
+  "MONT DE MARSAN": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 1,
+   "place": 6,
+   "dans3": 2
+  },
+  "MARONAS": {
+   "pays": "URY",
+   "courses": 6,
+   "gagnant": 0,
+   "place": 3,
+   "dans3": 1
+  },
+  "CHARTRES": {
+   "pays": "FRA",
+   "courses": 16,
+   "gagnant": 1,
+   "place": 6,
+   "dans3": 7
+  },
+  "CHERBOURG": {
+   "pays": "FRA",
+   "courses": 9,
+   "gagnant": 2,
+   "place": 4,
+   "dans3": 4
+  },
+  "LE MANS": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 1,
+   "place": 2,
+   "dans3": 5
+  },
+  "PONT DE VIVAUX": {
+   "pays": "FRA",
+   "courses": 15,
+   "gagnant": 5,
+   "place": 7,
+   "dans3": 9
+  },
+  "LE CROISE LAROCHE": {
+   "pays": "FRA",
+   "courses": 7,
+   "gagnant": 3,
+   "place": 4,
+   "dans3": 3
+  },
+  "NANTES": {
+   "pays": "FRA",
+   "courses": 15,
+   "gagnant": 4,
+   "place": 7,
+   "dans3": 6
+  },
+  "SANTIAGO": {
+   "pays": "CHL",
+   "courses": 6,
+   "gagnant": 1,
+   "place": 5,
+   "dans3": 1
+  },
+  "PALERMO": {
+   "pays": "ARG",
+   "courses": 9,
+   "gagnant": 1,
+   "place": 4,
+   "dans3": 3
+  },
+  "AGEN LA GARENNE": {
+   "pays": "FRA",
+   "courses": 15,
+   "gagnant": 3,
+   "place": 8,
+   "dans3": 6
+  },
+  "ANGERS": {
+   "pays": "FRA",
+   "courses": 17,
+   "gagnant": 2,
+   "place": 8,
+   "dans3": 5
+  },
+  "MAUQUENCHY": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 0,
+   "place": 3,
+   "dans3": 4
+  },
+  "PAU": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 0,
+   "place": 2,
+   "dans3": 2
+  },
+  "KEMPTON PARK": {
+   "pays": "GBR",
+   "courses": 9,
+   "gagnant": 2,
+   "place": 4,
+   "dans3": 6
+  },
+  "VALPARAISO": {
+   "pays": "CHL",
+   "courses": 18,
+   "gagnant": 2,
+   "place": 4,
+   "dans3": 4
+  },
+  "FONTAINEBLEAU": {
+   "pays": "FRA",
+   "courses": 15,
+   "gagnant": 4,
+   "place": 8,
+   "dans3": 6
+  },
+  "LE BOUSCAT": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 4,
+   "place": 8,
+   "dans3": 4
+  },
+  "SAINT GALMIER": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 2,
+   "place": 5,
+   "dans3": 6
+  },
+  "MEYDAN (E.A.U)": {
+   "pays": "ARE",
+   "courses": 7,
+   "gagnant": 2,
+   "place": 5,
+   "dans3": 3
+  },
+  "REIMS": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 0,
+   "place": 3,
+   "dans3": 1
+  },
+  "DEAUVILLE": {
+   "pays": "FRA",
+   "courses": 24,
+   "gagnant": 4,
+   "place": 9,
+   "dans3": 10
+  },
+  "HAYDOCK": {
+   "pays": "GBR",
+   "courses": 7,
+   "gagnant": 3,
+   "place": 5,
+   "dans3": 5
+  },
+  "NANCY-BRABOIS": {
+   "pays": "FRA",
+   "courses": 7,
+   "gagnant": 2,
+   "place": 4,
+   "dans3": 3
+  },
+  "KYOTO JAPON": {
+   "pays": "JPN",
+   "courses": 1,
+   "gagnant": 1,
+   "place": 1,
+   "dans3": 1
+  },
+  "BUNBURY AUSTRALIE": {
+   "pays": "AUS",
+   "courses": 3,
+   "gagnant": 0,
+   "place": 1,
+   "dans3": 1
+  },
+  "SALON DE PROVENCE": {
+   "pays": "FRA",
+   "courses": 7,
+   "gagnant": 1,
+   "place": 4,
+   "dans3": 2
+  },
+  "CORDEMAIS": {
+   "pays": "FRA",
+   "courses": 8,
+   "gagnant": 1,
+   "place": 2,
+   "dans3": 3
+  },
+  "VIRE": {
+   "pays": "FRA",
+   "courses": 10,
+   "gagnant": 3,
+   "place": 3,
+   "dans3": 4
+  },
+  "WOLVERHAMPTON": {
+   "pays": "GBR",
+   "courses": 18,
+   "gagnant": 2,
+   "place": 8,
+   "dans3": 8
+  },
+  "ABY GOTEBORG": {
+   "pays": "SWE",
+   "courses": 9,
+   "gagnant": 1,
+   "place": 3,
+   "dans3": 2
+  }
+ },
  "jours": [
   {
    "date": "2026-11-11",
@@ -46,9 +503,9 @@
   },
   {
    "date": "2026-11-12",
-   "courses": 50,
-   "gagnant": 8,
-   "place": 25
+   "courses": 41,
+   "gagnant": 7,
+   "place": 21
   },
   {
    "date": "2026-11-13",
@@ -58,9 +515,9 @@
   },
   {
    "date": "2026-11-14",
-   "courses": 89,
-   "gagnant": 10,
-   "place": 40
+   "courses": 78,
+   "gagnant": 8,
+   "place": 34
   },
   {
    "date": "2026-11-15",
@@ -88,9 +545,9 @@
   },
   {
    "date": "2026-11-19",
-   "courses": 50,
-   "gagnant": 9,
-   "place": 19
+   "courses": 33,
+   "gagnant": 6,
+   "place": 13
   },
   {
    "date": "2026-11-20",
@@ -100,9 +557,9 @@
   },
   {
    "date": "2026-11-21",
-   "courses": 73,
-   "gagnant": 11,
-   "place": 31
+   "courses": 62,
+   "gagnant": 9,
+   "place": 26
   },
   {
    "date": "2026-11-22",
