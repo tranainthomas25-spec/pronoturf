@@ -1,13 +1,13 @@
 {
  "total": {
-  "courses": 910,
-  "gagnant": 172,
-  "place": 429,
-  "dans3": 376
+  "courses": 915,
+  "gagnant": 173,
+  "place": 430,
+  "dans3": 378
  },
  "disciplines": {
   "Plat": {
-   "courses": 378,
+   "courses": 382,
    "gagnant": 71,
    "place": 180
   },
@@ -27,9 +27,9 @@
    "place": 3
   },
   "Trot attelé": {
-   "courses": 378,
-   "gagnant": 68,
-   "place": 172
+   "courses": 379,
+   "gagnant": 69,
+   "place": 173
   },
   "Trot monté": {
    "courses": 55,
@@ -124,10 +124,10 @@
   },
   "VINCENNES": {
    "pays": "FRA",
-   "courses": 91,
-   "gagnant": 17,
-   "place": 43,
-   "dans3": 29
+   "courses": 92,
+   "gagnant": 18,
+   "place": 44,
+   "dans3": 30
   },
   "AVENCHES": {
    "pays": "CHE",
@@ -138,7 +138,7 @@
   },
   "CHANTILLY": {
    "pays": "FRA",
-   "courses": 34,
+   "courses": 36,
    "gagnant": 3,
    "place": 14,
    "dans3": 11
@@ -495,10 +495,10 @@
   },
   "LIGNIERES": {
    "pays": "FRA",
-   "courses": 4,
+   "courses": 6,
    "gagnant": 1,
    "place": 3,
-   "dans3": 2
+   "dans3": 3
   }
  },
  "jours": [
@@ -594,9 +594,9 @@
   },
   {
    "date": "2026-11-26",
-   "courses": 6,
-   "gagnant": 1,
-   "place": 3
+   "courses": 11,
+   "gagnant": 2,
+   "place": 4
   }
  ]
 }
