@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 905,
+  "courses": 910,
   "gagnant": 172,
-  "place": 427,
-  "dans3": 374
+  "place": 429,
+  "dans3": 376
  },
  "disciplines": {
   "Plat": {
-   "courses": 373,
+   "courses": 378,
    "gagnant": 71,
-   "place": 178
+   "place": 180
   },
   "Steeple-chase": {
    "courses": 37,
@@ -138,10 +138,10 @@
   },
   "CHANTILLY": {
    "pays": "FRA",
-   "courses": 32,
+   "courses": 34,
    "gagnant": 3,
    "place": 14,
-   "dans3": 10
+   "dans3": 11
   },
   "AMIENS": {
    "pays": "FRA",
@@ -495,10 +495,10 @@
   },
   "LIGNIERES": {
    "pays": "FRA",
-   "courses": 1,
+   "courses": 4,
    "gagnant": 1,
-   "place": 1,
-   "dans3": 1
+   "place": 3,
+   "dans3": 2
   }
  },
  "jours": [
@@ -594,9 +594,9 @@
   },
   {
    "date": "2026-11-26",
-   "courses": 1,
+   "courses": 6,
    "gagnant": 1,
-   "place": 1
+   "place": 3
   }
  ]
 }
