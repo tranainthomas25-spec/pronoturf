@@ -493,6 +493,134 @@ def probabilities(scores, k, sims=6000, seed=42):
                     break
     return pw, [t / sims for t in top3]
 
+# ----------------------------------------------------------------- jockeys / drivers
+JK_W = 0.35        # poids du jockey/driver dans la note (calibre sur les resultats passes)
+JK_PRIOR = 12.0    # nb de montes "fictives" a la moyenne (evite les extremes avec peu de montes)
+JK_MIN_CLASSEMENT = 40
+
+
+def jkey(name):
+    """Nom de jockey -> cle stable 'initiale NOM' (ex : 'ATZENI A.', 'A. ATZENI', 'ANDREA ATZENI' -> 'A ATZENI')."""
+    s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().upper()
+    s = re.sub(r"\(.*?\)", " ", s)
+    toks = re.findall(r"([A-Z][A-Z'\-]*)(\.?)", s)
+    ini = [t for t, dot in toks if dot or len(t) == 1]
+    sur = [t for t, dot in toks if not (dot or len(t) == 1)]
+    if not sur:
+        return None
+    if not ini and len(sur) >= 2:
+        ini, sur = [sur[0]], sur[1:]
+    return ((ini[0][0] + " ") if ini else "") + " ".join(sur)
+
+
+def nb_places(nb):
+    return 2 if (nb or 10) <= 7 else 3
+
+
+class Jockeys:
+    """Historique des montes (cache/montes/AAAA-MM.json + perfs galop deja en cache)."""
+
+    def __init__(self):
+        self.rides, self.dirty, self._st = {}, set(), {}
+        mdir = os.path.join(CACHE, "montes")
+        if os.path.isdir(mdir):
+            for f in os.listdir(mdir):
+                for k, v in (jload(os.path.join(mdir, f), {}) or {}).items():
+                    self.rides[k] = v
+        pdir = os.path.join(CACHE, "perf")
+        if os.path.isdir(pdir):
+            for f in os.listdir(pdir):
+                for horse, lst in (jload(os.path.join(pdir, f), {}) or {}).items():
+                    for x in lst or []:
+                        self._put(horse, x, persist=False)
+
+    def _put(self, horse, x, persist=True):
+        key = f"{norm(horse)}|{x['d']}"
+        if key in self.rides or not x.get("jockey"):
+            return
+        self.rides[key] = [jkey(x["jockey"]), x["d"], x.get("pl"), x.get("nb"), x.get("disc"), x["jockey"]]
+        if persist:
+            self.dirty.add(x["d"][:7])
+            self._st = {}
+
+    def add(self, perfs_map):
+        for pm in perfs_map.values():
+            for horse, lst in pm.items():
+                for x in lst:
+                    self._put(horse, x)
+
+    def save(self):
+        if not self.dirty:
+            return
+        mdir = os.path.join(CACHE, "montes")
+        os.makedirs(mdir, exist_ok=True)
+        for m in self.dirty:
+            path = os.path.join(mdir, m + ".json")
+            cur = jload(path, {}) or {}
+            for k, v in self.rides.items():
+                if v[1][:7] == m and k not in cur:
+                    cur[k] = v
+            jsave(path, cur)
+        self.dirty = set()
+
+    def stats(self, ref):
+        """{cle: [montes, gagnes, places, gagnes attendus, places attendues, trot?, nom]} sur 12 mois avant ref."""
+        if ref in self._st:
+            return self._st[ref]
+        hi, lo = iso(ref), iso(ref - timedelta(days=365))
+        st, last = {}, {}
+        for jk, d, pl, nb, disc, raw in self.rides.values():
+            if not jk or not nb or nb < 2 or not (lo <= d < hi):
+                continue
+            x = st.setdefault(jk, [0, 0, 0, 0.0, 0.0, 0, ""])
+            k = nb_places(nb)
+            x[0] += 1; x[1] += int(pl == 1); x[2] += int(bool(pl) and pl <= k)
+            x[3] += 1 / nb; x[4] += k / nb
+            x[5] += int(disc in ("ATTELE", "MONTE"))
+            if d >= last.get(jk, ""):
+                last[jk], x[6] = d, raw
+        self._st[ref] = st
+        return st
+
+
+def jratio(s):
+    """Indice du jockey : 1 = moyenne ; 1.3 = gagne/place 30 % plus souvent qu'attendu."""
+    if not s:
+        return 1.0
+    pl = (s[2] + JK_PRIOR) / (s[4] + JK_PRIOR)
+    win = (s[1] + JK_PRIOR / 3) / (s[3] + JK_PRIOR / 3)
+    return math.sqrt(pl * win)
+
+
+JK = None
+
+
+def jockey_factor(name, trot, st):
+    s = st.get(jkey(name))
+    r = jratio(s)
+    adj = JK_W * math.log(r)
+    who = "Driver" if trot else "Jockey"
+    if s and s[0]:
+        v = f"{name} : {s[0]} monte{'s' if s[0] > 1 else ''} en 12 mois, {round(100 * s[1] / s[0])} % gagnant, {round(100 * s[2] / s[0])} % placé (indice {round(100 * r)})"
+    else:
+        v = f"{name or '?'} : pas encore de montes connues"
+    return adj, {"k": who, "v": v, "s": round(adj, 3)}, round(100 * r)
+
+
+def classement_jockeys(ref):
+    st = JK.stats(ref)
+    out = {"galop": [], "trot": []}
+    for jk, s in st.items():
+        if s[0] < JK_MIN_CLASSEMENT:
+            continue
+        grp = "trot" if s[5] * 2 > s[0] else "galop"
+        out[grp].append({"nom": s[6], "n": s[0], "g": round(100 * s[1] / s[0], 1), "p": round(100 * s[2] / s[0], 1), "i": round(100 * jratio(s))})
+    for g in out:
+        out[g].sort(key=lambda x: -x["i"])
+        out[g] = out[g][:50]
+    out["maj"] = iso(ref)
+    jsave(os.path.join(DATA, "jockeys.json"), out, pretty=True)
+
 # ----------------------------------------------------------------- traitement d'un jour
 PAYS_EXCLUS = {"USA"}
 
@@ -532,6 +660,8 @@ def process_day(d, model):
     for (reu, c), part, perf, old in fetched:
         if part is not None:
             perfs_map[(reu["numOfficiel"], c["numOrdre"])] = perfs_by_name(perf)
+    JK.add(perfs_map)
+    jst = JK.stats(d)
     dates = set()
     for pm in perfs_map.values():
         for lst in pm.values():
@@ -578,7 +708,7 @@ def process_day(d, model):
                     old["statut"] = c.get("statut")
                     out_c.append(old)
                 continue
-            out_c.append(build_course(reu, c, part, perfs_map.get((reu["numOfficiel"], c["numOrdre"]), {}), deep, vals, progs, model, arrivee, old))
+            out_c.append(build_course(reu, c, part, perfs_map.get((reu["numOfficiel"], c["numOrdre"]), {}), deep, vals, progs, model, arrivee, old, jst))
         out_reunions.append({
             "r": reu["numOfficiel"], "hippo": (reu.get("hippodrome") or {}).get("libelleCourt"),
             "pays": (reu.get("pays") or {}).get("code"), "courses": out_c,
@@ -589,7 +719,7 @@ def process_day(d, model):
     return doc
 
 
-def build_course(reu, c, part, pm, deep, vals, progs, model, arrivee, old):
+def build_course(reu, c, part, pm, deep, vals, progs, model, arrivee, old, jst=None):
     trot = (c.get("specialite") or "").startswith("TROT")
     partants = [p for p in (part or {}).get("participants", []) if p.get("statut") != "NON_PARTANT"]
     nonpartants = [p.get("numPmu") for p in (part or {}).get("participants", []) if p.get("statut") == "NON_PARTANT"]
@@ -617,12 +747,15 @@ def build_course(reu, c, part, pm, deep, vals, progs, model, arrivee, old):
                 if v and v.get("val") is not None:
                     h["valeur_prev"] = v["val"]
         score, factors, alerts = analyse_horse(h, c, perfs, trot, race_min)
+        adj, jf, jidx = jockey_factor(p.get("driver"), trot, jst or {})
+        score += adj
+        factors.append(jf)
         horses.append({
             "n": p.get("numPmu"), "nom": p.get("nom"), "age": p.get("age"), "sexe": (p.get("sexe") or "")[:1],
             "jockey": p.get("driver"), "entr": p.get("entraineur"), "musique": p.get("musique"),
             "corde": p.get("placeCorde"), "kg": h.get("kg"), "valeur": h.get("valeur"),
             "dist": h["distance"] if trot else None, "oeill": p.get("oeilleres"), "def": p.get("deferre"),
-            "score": round(score, 4), "f": factors, "a": alerts,
+            "score": round(score, 4), "f": factors, "a": alerts, "ji": jidx,
             "casaque": p.get("urlCasaque"),
         })
     k = model.get("k", 5.0)
@@ -696,7 +829,9 @@ def update_stats():
 
 
 def main():
+    global JK
     os.makedirs(DATA, exist_ok=True)
+    JK = Jockeys()
     model = jload(os.path.join(DATA, "model.json"), {"k": 5.0}) or {"k": 5.0}
     now = datetime.now(PARIS)
     days = [now.date()]
@@ -708,6 +843,8 @@ def main():
         days.insert(0, now.date() - timedelta(days=1))  # arrivees tardives de la veille
     for d in days:
         process_day(d, model)
+    JK.save()
+    classement_jockeys(now.date())
     model = update_stats()
     files = sorted(f[:-5] for f in os.listdir(DATA) if re.match(r"\d{4}-\d{2}-\d{2}\.json$", f))
     jsave(os.path.join(DATA, "index.json"), {"dates": files[-45:], "maj": now.strftime("%Y-%m-%d %H:%M"), "k": model.get("k")}, pretty=True)
