@@ -305,7 +305,7 @@ async function renderStats(){
   h += `<h2>Par discipline</h2><table><tr><th>Discipline</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th></tr>`+
     Object.entries(st.disciplines).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="r">${v.courses}</td><td class="r">${pc(v.gagnant,v.courses)}%</td><td class="r">${pc(v.place,v.courses)}%</td></tr>`).join('')+`</table>`;
   if(st.hippodromes){
-    const hs = Object.entries(st.hippodromes).sort((a,b)=>b[1].courses-a[1].courses);
+    const hs = Object.entries(st.hippodromes).sort((a,b)=>b[1].place/b[1].courses-a[1].place/a[1].courses || b[1].courses-a[1].courses);
     h += `<h2>Par hippodrome</h2><table><tr><th>Hippodrome</th><th class="r">Courses</th><th class="r">Gagnant</th><th class="r">Placé</th><th class="r">Gag. dans top 3</th></tr>`+
       hs.map(([k,v])=>`<tr><td>${FLAG[v.pays]||''} ${esc(k)}</td><td class="r">${v.courses}</td><td class="r">${pc(v.gagnant,v.courses)}%</td><td class="r">${pc(v.place,v.courses)}%</td><td class="r">${pc(v.dans3,v.courses)}%</td></tr>`).join('')+`</table>`;
   }
