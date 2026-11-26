@@ -269,10 +269,11 @@ function htog(k){S.hopen[k]=!S.hopen[k]; const y=window.scrollY; render(); windo
 function allCourses(){ const out=[]; for(const r of S.doc.reunions) for(const c of r.courses) if(c.chevaux?.length) out.push({...c,hippo:r.hippo,pays:r.pays}); return out; }
 function renderTop(){
   const mode = S.topMode || 'proba';
-  let list = allCourses().map(c=>({c, h:c.chevaux[0]})).sort((a,b)=>b.h.pw-a.h.pw).slice(0,30);
+  let list = allCourses().map(c=>({c, h:c.chevaux[0]})).filter(x=>x.h.p3>=50).sort((a,b)=>b.h.pw-a.h.pw).slice(0,30);
   if(mode==='heure') list.sort((a,b)=>(a.c.heure||'99:99').localeCompare(b.c.heure||'99:99') || b.h.pw-a.h.pw);
   let h = `<div class="filters">${[['proba','⭐ Par probabilité'],['heure','🕐 Par heure de course']].map(([k,l])=>`<button class="chip ${mode===k?'on':''}" onclick="S.topMode='${k}';render()">${l}</button>`).join('')}</div>`;
-  h += `<div class="note" style="margin-bottom:10px">${mode==='heure'?'Les 30 meilleurs chevaux du jour, dans l\'ordre des départs.':'Les 30 chevaux du jour avec la plus forte probabilité de gagner, toutes réunions confondues.'}</div>`;
+  h += `<div class="note" style="margin-bottom:10px">${mode==='heure'?'Les meilleurs chevaux du jour (50 % ou plus de chances d\'être placés), dans l\'ordre des départs.':'Les chevaux du jour avec la plus forte probabilité de gagner et au moins 50 % de chances d\'être placés (30 maximum), toutes réunions confondues.'}</div>`;
+  if(!list.length) h += '<div class="empty">Aucun cheval à 50 % ou plus de chances d\'être placé aujourd\'hui.</div>';
   h += list.map(({c,h:x})=>{
     const fin=c.arrivee?.length, rank=fin?c.arrivee.indexOf(x.n):-1;
     const res = fin ? (rank===0?'<span class="done">✅ Gagné</span>':rank>0&&rank<3?'<span class="done">🟢 '+(rank+1)+'e</span>':'<span style="color:var(--red)">❌</span>') : '';
