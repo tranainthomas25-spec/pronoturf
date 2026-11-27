@@ -2,17 +2,17 @@
  "galop": [
   {
    "nom": "PURTON Z.",
-   "n": 346,
-   "g": 18.2,
-   "p": 50.6,
-   "i": 203
+   "n": 340,
+   "g": 18.5,
+   "p": 51.2,
+   "i": 206
   },
   {
    "nom": "ALEJANDRO HERRERA OLIVARES JOAQUIN",
-   "n": 179,
-   "g": 25.1,
-   "p": 48.0,
-   "i": 191
+   "n": 175,
+   "g": 25.7,
+   "p": 49.1,
+   "i": 194
   },
   {
    "nom": "RO ULLOA PEREZ OSCAR ALEJAND",
@@ -37,31 +37,17 @@
   },
   {
    "nom": "M.BARZALONA",
-   "n": 308,
-   "g": 15.6,
-   "p": 45.8,
-   "i": 170
-  },
-  {
-   "nom": "N MEDINA MEDINA JAIME FABIA",
-   "n": 82,
-   "g": 20.7,
-   "p": 51.2,
-   "i": 166
+   "n": 305,
+   "g": 15.7,
+   "p": 46.2,
+   "i": 171
   },
   {
    "nom": "C.SOUMILLON",
-   "n": 221,
-   "g": 14.9,
-   "p": 45.2,
-   "i": 162
-  },
-  {
-   "nom": "JAMES MCDONALD",
-   "n": 62,
-   "g": 17.7,
-   "p": 43.5,
-   "i": 160
+   "n": 218,
+   "g": 15.1,
+   "p": 45.4,
+   "i": 163
   },
   {
    "nom": "MOREIRA J.",
@@ -85,11 +71,18 @@
    "i": 154
   },
   {
-   "nom": "N EDUARDO GONZALEZ BARRIGA SEBASTIA",
-   "n": 121,
-   "g": 16.5,
+   "nom": "N MEDINA MEDINA JAIME FABIA",
+   "n": 76,
+   "g": 18.4,
+   "p": 48.7,
+   "i": 154
+  },
+  {
+   "nom": "JAMES MCDONALD",
+   "n": 57,
+   "g": 15.8,
    "p": 42.1,
-   "i": 153
+   "i": 150
   },
   {
    "nom": "L MOYA SEPULVEDA JOSE MANUE",
@@ -110,6 +103,13 @@
    "n": 130,
    "g": 15.4,
    "p": 39.2,
+   "i": 149
+  },
+  {
+   "nom": "N EDUARDO GONZALEZ BARRIGA SEBASTIA",
+   "n": 120,
+   "g": 15.8,
+   "p": 41.7,
    "i": 149
   },
   {
@@ -141,11 +141,18 @@
    "i": 140
   },
   {
-   "nom": "BOWMAN H.",
-   "n": 275,
-   "g": 12.4,
-   "p": 34.2,
-   "i": 139
+   "nom": "M.GUYON",
+   "n": 513,
+   "g": 11.3,
+   "p": 34.1,
+   "i": 137
+  },
+  {
+   "nom": "D ANDRES RODRIGUEZ SEPULVEDA GERAR",
+   "n": 143,
+   "g": 16.1,
+   "p": 34.3,
+   "i": 137
   },
   {
    "nom": "YUEN H.Y.",
@@ -155,10 +162,10 @@
    "i": 137
   },
   {
-   "nom": "M.GUYON",
-   "n": 517,
-   "g": 11.2,
-   "p": 33.8,
+   "nom": "BOWMAN H.",
+   "n": 272,
+   "g": 12.1,
+   "p": 33.5,
    "i": 136
   },
   {
@@ -176,25 +183,11 @@
    "i": 136
   },
   {
-   "nom": "D ANDRES RODRIGUEZ SEPULVEDA GERAR",
-   "n": 145,
-   "g": 15.9,
-   "p": 34.5,
-   "i": 136
-  },
-  {
    "nom": "VANDERBEKE KOBE",
    "n": 43,
    "g": 18.6,
    "p": 51.2,
    "i": 136
-  },
-  {
-   "nom": "F.LEFEBVRE",
-   "n": 206,
-   "g": 13.1,
-   "p": 32.0,
-   "i": 132
   },
   {
    "nom": "H.BESNIER",
@@ -216,6 +209,13 @@
    "g": 13.9,
    "p": 33.3,
    "i": 131
+  },
+  {
+   "nom": "F.LEFEBVRE",
+   "n": 204,
+   "g": 12.7,
+   "p": 31.9,
+   "i": 130
   },
   {
    "nom": "T GAFFALIONE",
@@ -243,6 +243,13 @@
    "n": 79,
    "g": 17.7,
    "p": 39.2,
+   "i": 129
+  },
+  {
+   "nom": "KEVIN BANEGAS",
+   "n": 40,
+   "g": 20.0,
+   "p": 42.5,
    "i": 129
   },
   {
@@ -274,6 +281,13 @@
    "i": 126
   },
   {
+   "nom": "ATZENI A.",
+   "n": 306,
+   "g": 10.8,
+   "p": 29.7,
+   "i": 125
+  },
+  {
    "nom": "L.PHILIPPERON",
    "n": 171,
    "g": 13.5,
@@ -281,10 +295,10 @@
    "i": 125
   },
   {
-   "nom": "KEVIN BANEGAS",
-   "n": 43,
-   "g": 18.6,
-   "p": 39.5,
+   "nom": "ALONSO SANCHO ESCALANTE BENJAMIN",
+   "n": 126,
+   "g": 12.7,
+   "p": 33.3,
    "i": 125
   },
   {
@@ -309,20 +323,6 @@
    "i": 124
   },
   {
-   "nom": "ALONSO SANCHO ESCALANTE BENJAMIN",
-   "n": 128,
-   "g": 12.5,
-   "p": 32.8,
-   "i": 124
-  },
-  {
-   "nom": "TAPIA SOLORZA FELIPE",
-   "n": 84,
-   "g": 13.1,
-   "p": 38.1,
-   "i": 124
-  },
-  {
    "nom": "B.FROST",
    "n": 89,
    "g": 13.5,
@@ -330,11 +330,11 @@
    "i": 124
   },
   {
-   "nom": "ATZENI A.",
-   "n": 311,
-   "g": 10.6,
-   "p": 29.6,
-   "i": 123
+   "nom": "TAPIA SOLORZA FELIPE",
+   "n": 81,
+   "g": 13.6,
+   "p": 37.0,
+   "i": 124
   },
   {
    "nom": "A.GAVILAN",
@@ -374,5 +374,5 @@
    "i": 111
   }
  ],
- "maj": "2026-11-26"
+ "maj": "2026-11-27"
 }
