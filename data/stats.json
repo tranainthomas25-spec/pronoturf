@@ -1,25 +1,25 @@
 {
  "total": {
-  "courses": 949,
-  "gagnant": 183,
-  "place": 447,
-  "dans3": 395
+  "courses": 956,
+  "gagnant": 184,
+  "place": 451,
+  "dans3": 398
  },
  "disciplines": {
   "Plat": {
-   "courses": 386,
+   "courses": 388,
    "gagnant": 72,
-   "place": 182
+   "place": 183
   },
   "Steeple-chase": {
-   "courses": 39,
+   "courses": 41,
    "gagnant": 12,
-   "place": 23
+   "place": 25
   },
   "Haies": {
-   "courses": 56,
-   "gagnant": 10,
-   "place": 28
+   "courses": 57,
+   "gagnant": 11,
+   "place": 29
   },
   "Cross": {
    "courses": 7,
@@ -27,7 +27,7 @@
    "place": 4
   },
   "Trot attelé": {
-   "courses": 401,
+   "courses": 403,
    "gagnant": 76,
    "place": 186
   },
@@ -54,10 +54,10 @@
   },
   "COMPIEGNE": {
    "pays": "FRA",
-   "courses": 8,
-   "gagnant": 2,
-   "place": 3,
-   "dans3": 6
+   "courses": 11,
+   "gagnant": 3,
+   "place": 6,
+   "dans3": 8
   },
   "LYON LA SOIE": {
    "pays": "FRA",
@@ -187,10 +187,10 @@
   },
   "WOLVEGA": {
    "pays": "NLD",
-   "courses": 23,
+   "courses": 25,
    "gagnant": 6,
    "place": 11,
-   "dans3": 10
+   "dans3": 11
   },
   "SHA TIN (HONG KONG)": {
    "pays": "HKG",
@@ -215,9 +215,9 @@
   },
   "PORNICHET": {
    "pays": "FRA",
-   "courses": 8,
+   "courses": 10,
    "gagnant": 0,
-   "place": 4,
+   "place": 5,
    "dans3": 3
   },
   "CHILE": {
@@ -600,9 +600,9 @@
   },
   {
    "date": "2026-11-27",
-   "courses": 4,
-   "gagnant": 1,
-   "place": 2
+   "courses": 11,
+   "gagnant": 2,
+   "place": 6
   }
  ]
 }
