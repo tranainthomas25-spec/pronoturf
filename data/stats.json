@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 975,
-  "gagnant": 188,
-  "place": 462,
-  "dans3": 410
+  "courses": 980,
+  "gagnant": 191,
+  "place": 465,
+  "dans3": 415
  },
  "disciplines": {
   "Plat": {
@@ -27,23 +27,23 @@
    "place": 4
   },
   "Trot attelé": {
-   "courses": 411,
-   "gagnant": 78,
-   "place": 190
+   "courses": 415,
+   "gagnant": 80,
+   "place": 192
   },
   "Trot monté": {
-   "courses": 60,
-   "gagnant": 11,
-   "place": 24
+   "courses": 61,
+   "gagnant": 12,
+   "place": 25
   }
  },
  "hippodromes": {
   "LA CEPIERE": {
    "pays": "FRA",
-   "courses": 33,
-   "gagnant": 3,
-   "place": 14,
-   "dans3": 12
+   "courses": 35,
+   "gagnant": 4,
+   "place": 15,
+   "dans3": 14
   },
   "STRASBOURG": {
    "pays": "FRA",
@@ -124,10 +124,10 @@
   },
   "VINCENNES": {
    "pays": "FRA",
-   "courses": 100,
-   "gagnant": 19,
-   "place": 46,
-   "dans3": 34
+   "courses": 102,
+   "gagnant": 20,
+   "place": 47,
+   "dans3": 36
   },
   "AVENCHES": {
    "pays": "CHE",
@@ -313,10 +313,10 @@
   },
   "PONT DE VIVAUX": {
    "pays": "FRA",
-   "courses": 19,
-   "gagnant": 6,
-   "place": 10,
-   "dans3": 11
+   "courses": 20,
+   "gagnant": 7,
+   "place": 11,
+   "dans3": 12
   },
   "LE CROISE LAROCHE": {
    "pays": "FRA",
@@ -600,9 +600,9 @@
   },
   {
    "date": "2026-11-27",
-   "courses": 30,
-   "gagnant": 6,
-   "place": 17
+   "courses": 35,
+   "gagnant": 9,
+   "place": 20
   }
  ]
 }
