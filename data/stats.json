@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 990,
-  "gagnant": 191,
-  "place": 473,
-  "dans3": 417
+  "courses": 992,
+  "gagnant": 192,
+  "place": 474,
+  "dans3": 418
  },
  "disciplines": {
   "Plat": {
@@ -27,9 +27,9 @@
    "place": 4
   },
   "Trot attelé": {
-   "courses": 422,
-   "gagnant": 80,
-   "place": 198
+   "courses": 424,
+   "gagnant": 81,
+   "place": 199
   },
   "Trot monté": {
    "courses": 64,
@@ -40,7 +40,7 @@
  "hippodromes": {
   "LA CEPIERE": {
    "pays": "FRA",
-   "courses": 39,
+   "courses": 40,
    "gagnant": 4,
    "place": 18,
    "dans3": 15
@@ -124,10 +124,10 @@
   },
   "VINCENNES": {
    "pays": "FRA",
-   "courses": 106,
-   "gagnant": 20,
-   "place": 50,
-   "dans3": 37
+   "courses": 107,
+   "gagnant": 21,
+   "place": 51,
+   "dans3": 38
   },
   "AVENCHES": {
    "pays": "CHE",
@@ -600,9 +600,9 @@
   },
   {
    "date": "2026-11-27",
-   "courses": 45,
-   "gagnant": 9,
-   "place": 28
+   "courses": 47,
+   "gagnant": 10,
+   "place": 29
   }
  ]
 }
