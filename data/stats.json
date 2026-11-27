@@ -1,20 +1,20 @@
 {
  "total": {
-  "courses": 964,
+  "courses": 967,
   "gagnant": 187,
-  "place": 456,
-  "dans3": 405
+  "place": 458,
+  "dans3": 407
  },
  "disciplines": {
   "Plat": {
-   "courses": 391,
+   "courses": 393,
    "gagnant": 72,
-   "place": 185
+   "place": 186
   },
   "Steeple-chase": {
-   "courses": 42,
+   "courses": 43,
    "gagnant": 13,
-   "place": 26
+   "place": 27
   },
   "Haies": {
    "courses": 59,
@@ -54,10 +54,10 @@
   },
   "COMPIEGNE": {
    "pays": "FRA",
-   "courses": 14,
+   "courses": 15,
    "gagnant": 5,
-   "place": 8,
-   "dans3": 11
+   "place": 9,
+   "dans3": 12
   },
   "LYON LA SOIE": {
    "pays": "FRA",
@@ -215,10 +215,10 @@
   },
   "PORNICHET": {
    "pays": "FRA",
-   "courses": 13,
+   "courses": 15,
    "gagnant": 0,
-   "place": 7,
-   "dans3": 6
+   "place": 8,
+   "dans3": 7
   },
   "CHILE": {
    "pays": "CHL",
@@ -600,9 +600,9 @@
   },
   {
    "date": "2026-11-27",
-   "courses": 19,
+   "courses": 22,
    "gagnant": 5,
-   "place": 11
+   "place": 13
   }
  ]
 }
