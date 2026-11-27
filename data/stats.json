@@ -1,9 +1,9 @@
 {
  "total": {
-  "courses": 945,
-  "gagnant": 182,
-  "place": 445,
-  "dans3": 394
+  "courses": 949,
+  "gagnant": 183,
+  "place": 447,
+  "dans3": 395
  },
  "disciplines": {
   "Plat": {
@@ -27,9 +27,9 @@
    "place": 4
   },
   "Trot attelé": {
-   "courses": 397,
-   "gagnant": 75,
-   "place": 184
+   "courses": 401,
+   "gagnant": 76,
+   "place": 186
   },
   "Trot monté": {
    "courses": 60,
@@ -187,10 +187,10 @@
   },
   "WOLVEGA": {
    "pays": "NLD",
-   "courses": 19,
-   "gagnant": 5,
-   "place": 9,
-   "dans3": 9
+   "courses": 23,
+   "gagnant": 6,
+   "place": 11,
+   "dans3": 10
   },
   "SHA TIN (HONG KONG)": {
    "pays": "HKG",
@@ -597,6 +597,12 @@
    "courses": 41,
    "gagnant": 11,
    "place": 19
+  },
+  {
+   "date": "2026-11-27",
+   "courses": 4,
+   "gagnant": 1,
+   "place": 2
   }
  ]
 }
