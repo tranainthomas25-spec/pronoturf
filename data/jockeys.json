@@ -9,10 +9,10 @@
   },
   {
    "nom": "ALEJANDRO HERRERA OLIVARES JOAQUIN",
-   "n": 175,
-   "g": 25.7,
-   "p": 49.1,
-   "i": 194
+   "n": 180,
+   "g": 26.1,
+   "p": 49.4,
+   "i": 196
   },
   {
    "nom": "RO ULLOA PEREZ OSCAR ALEJAND",
@@ -23,31 +23,45 @@
   },
   {
    "nom": "C.LEFEBVRE",
-   "n": 217,
-   "g": 22.6,
-   "p": 47.9,
-   "i": 175
+   "n": 219,
+   "g": 22.4,
+   "p": 47.5,
+   "i": 174
   },
   {
    "nom": "O ISAIAS MAUREIRA SALINAS ALEJANDR",
-   "n": 65,
-   "g": 24.6,
-   "p": 50.8,
-   "i": 171
+   "n": 66,
+   "g": 24.2,
+   "p": 50.0,
+   "i": 170
   },
   {
    "nom": "M.BARZALONA",
-   "n": 311,
-   "g": 15.4,
-   "p": 45.7,
-   "i": 168
+   "n": 321,
+   "g": 15.6,
+   "p": 45.8,
+   "i": 169
   },
   {
    "nom": "C.SOUMILLON",
-   "n": 222,
+   "n": 228,
    "g": 14.9,
-   "p": 44.6,
-   "i": 160
+   "p": 44.3,
+   "i": 161
+  },
+  {
+   "nom": "A.ORANI",
+   "n": 465,
+   "g": 17.6,
+   "p": 42.2,
+   "i": 159
+  },
+  {
+   "nom": "NICOLAS ALEJANDRO RAMIREZ MUNOZ",
+   "n": 45,
+   "g": 22.2,
+   "p": 53.3,
+   "i": 159
   },
   {
    "nom": "MOREIRA J.",
@@ -57,25 +71,18 @@
    "i": 159
   },
   {
-   "nom": "A.ORANI",
-   "n": 449,
-   "g": 17.6,
-   "p": 41.6,
-   "i": 158
-  },
-  {
-   "nom": "NICOLAS ALEJANDRO RAMIREZ MUNOZ",
-   "n": 41,
-   "g": 22.0,
-   "p": 53.7,
-   "i": 156
+   "nom": "N EDUARDO GONZALEZ BARRIGA SEBASTIA",
+   "n": 129,
+   "g": 17.1,
+   "p": 41.1,
+   "i": 153
   },
   {
    "nom": "N MEDINA MEDINA JAIME FABIA",
-   "n": 76,
-   "g": 18.4,
-   "p": 48.7,
-   "i": 154
+   "n": 78,
+   "g": 17.9,
+   "p": 47.4,
+   "i": 152
   },
   {
    "nom": "G.TROLLEY DE PREVAUX",
@@ -106,13 +113,6 @@
    "i": 150
   },
   {
-   "nom": "N EDUARDO GONZALEZ BARRIGA SEBASTIA",
-   "n": 120,
-   "g": 15.8,
-   "p": 41.7,
-   "i": 149
-  },
-  {
    "nom": "J.REVELEY",
    "n": 161,
    "g": 15.5,
@@ -121,23 +121,23 @@
   },
   {
    "nom": "LEO-PAUL BRECHET",
-   "n": 191,
-   "g": 17.3,
-   "p": 33.5,
+   "n": 192,
+   "g": 17.2,
+   "p": 33.9,
    "i": 144
   },
   {
-   "nom": "C.DEMURO",
-   "n": 760,
-   "g": 12.4,
-   "p": 37.0,
-   "i": 142
+   "nom": "L.PLOMMEE",
+   "n": 168,
+   "g": 14.3,
+   "p": 32.1,
+   "i": 143
   },
   {
-   "nom": "L.PLOMMEE",
-   "n": 163,
-   "g": 14.1,
-   "p": 31.3,
+   "nom": "C.DEMURO",
+   "n": 776,
+   "g": 12.2,
+   "p": 36.7,
    "i": 141
   },
   {
@@ -148,17 +148,17 @@
    "i": 140
   },
   {
-   "nom": "R.SOUSA FERREIRA",
-   "n": 41,
-   "g": 19.5,
-   "p": 39.0,
+   "nom": "R. Sousa Ferreira",
+   "n": 42,
+   "g": 19.0,
+   "p": 40.5,
    "i": 140
   },
   {
-   "nom": "D ANDRES RODRIGUEZ SEPULVEDA GERAR",
-   "n": 143,
-   "g": 16.1,
-   "p": 34.3,
+   "nom": "M.GUYON",
+   "n": 528,
+   "g": 11.2,
+   "p": 34.5,
    "i": 137
   },
   {
@@ -183,13 +183,6 @@
    "i": 136
   },
   {
-   "nom": "M.GUYON",
-   "n": 519,
-   "g": 11.2,
-   "p": 34.1,
-   "i": 136
-  },
-  {
    "nom": "VANDERBEKE KOBE",
    "n": 43,
    "g": 18.6,
@@ -197,17 +190,38 @@
    "i": 136
   },
   {
-   "nom": "PC.BOUDOT",
-   "n": 157,
-   "g": 14.0,
+   "nom": "D ANDRES RODRIGUEZ SEPULVEDA GERAR",
+   "n": 145,
+   "g": 15.9,
    "p": 33.8,
-   "i": 134
+   "i": 135
+  },
+  {
+   "nom": "PC.BOUDOT",
+   "n": 160,
+   "g": 14.4,
+   "p": 33.8,
+   "i": 135
+  },
+  {
+   "nom": "JOAQUIN ALEJANDRO HERRERA OLIVAR",
+   "n": 44,
+   "g": 13.6,
+   "p": 47.7,
+   "i": 133
+  },
+  {
+   "nom": "JB.EYQUEM",
+   "n": 70,
+   "g": 14.3,
+   "p": 48.6,
+   "i": 132
   },
   {
    "nom": "H.BESNIER",
-   "n": 317,
-   "g": 12.9,
-   "p": 40.4,
+   "n": 328,
+   "g": 12.8,
+   "p": 40.5,
    "i": 132
   },
   {
@@ -226,23 +240,16 @@
   },
   {
    "nom": "L.BAILS",
-   "n": 67,
-   "g": 13.4,
-   "p": 31.3,
+   "n": 68,
+   "g": 13.2,
+   "p": 32.4,
    "i": 130
   },
   {
-   "nom": "J.PHELIPPE",
-   "n": 99,
-   "g": 13.1,
-   "p": 39.4,
-   "i": 129
-  },
-  {
-   "nom": "F.LEFEBVRE",
-   "n": 205,
-   "g": 12.7,
-   "p": 31.7,
+   "nom": "ALONSO SANCHO ESCALANTE BENJAMIN",
+   "n": 128,
+   "g": 13.3,
+   "p": 34.4,
    "i": 129
   },
   {
@@ -260,13 +267,6 @@
    "i": 129
   },
   {
-   "nom": "JB.EYQUEM",
-   "n": 66,
-   "g": 13.6,
-   "p": 47.0,
-   "i": 128
-  },
-  {
    "nom": "L.LE GEAY",
    "n": 45,
    "g": 20.0,
@@ -281,18 +281,25 @@
    "i": 128
   },
   {
-   "nom": "SIBYLLE VOGT",
-   "n": 82,
-   "g": 14.6,
-   "p": 37.8,
+   "nom": "J.PHELIPPE",
+   "n": 101,
+   "g": 12.9,
+   "p": 38.6,
    "i": 127
   },
   {
-   "nom": "BRYONY LE CLERC",
-   "n": 122,
-   "g": 12.3,
-   "p": 38.5,
+   "nom": "F.LEFEBVRE",
+   "n": 208,
+   "g": 12.5,
+   "p": 31.2,
    "i": 127
+  },
+  {
+   "nom": "SIBYLLE VOGT",
+   "n": 83,
+   "g": 14.5,
+   "p": 37.3,
+   "i": 126
   },
   {
    "nom": "BRAHAM PEREDA GUTIERREZ GERSON A",
@@ -316,10 +323,10 @@
    "i": 125
   },
   {
-   "nom": "ALONSO SANCHO ESCALANTE BENJAMIN",
-   "n": 126,
-   "g": 12.7,
-   "p": 33.3,
+   "nom": "BRYONY LE CLERC",
+   "n": 124,
+   "g": 12.1,
+   "p": 37.9,
    "i": 125
   },
   {
@@ -331,24 +338,17 @@
   },
   {
    "nom": "B.FROST",
-   "n": 89,
-   "g": 13.5,
-   "p": 37.1,
-   "i": 124
+   "n": 90,
+   "g": 13.3,
+   "p": 36.7,
+   "i": 123
   },
   {
    "nom": "TAPIA SOLORZA FELIPE",
-   "n": 81,
-   "g": 13.6,
-   "p": 37.0,
-   "i": 124
-  },
-  {
-   "nom": "M.PROTTI",
-   "n": 189,
-   "g": 13.2,
-   "p": 30.2,
-   "i": 122
+   "n": 82,
+   "g": 13.4,
+   "p": 36.6,
+   "i": 123
   }
  ],
  "trot": [
