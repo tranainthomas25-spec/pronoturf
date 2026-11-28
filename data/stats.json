@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 993,
+  "courses": 997,
   "gagnant": 192,
-  "place": 475,
-  "dans3": 419
+  "place": 476,
+  "dans3": 420
  },
  "disciplines": {
   "Plat": {
-   "courses": 396,
+   "courses": 400,
    "gagnant": 72,
-   "place": 188
+   "place": 189
   },
   "Steeple-chase": {
    "courses": 43,
@@ -173,7 +173,7 @@
   },
   "LYON-PARILLY": {
    "pays": "FRA",
-   "courses": 17,
+   "courses": 19,
    "gagnant": 7,
    "place": 13,
    "dans3": 10
@@ -369,10 +369,10 @@
   },
   "PAU": {
    "pays": "FRA",
-   "courses": 8,
+   "courses": 10,
    "gagnant": 0,
-   "place": 2,
-   "dans3": 2
+   "place": 3,
+   "dans3": 3
   },
   "KEMPTON PARK": {
    "pays": "GBR",
@@ -606,9 +606,9 @@
   },
   {
    "date": "2026-11-28",
-   "courses": 1,
+   "courses": 5,
    "gagnant": 0,
-   "place": 1
+   "place": 2
   }
  ]
 }
