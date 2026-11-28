@@ -1,15 +1,15 @@
 {
  "total": {
-  "courses": 992,
+  "courses": 993,
   "gagnant": 192,
-  "place": 474,
-  "dans3": 418
+  "place": 475,
+  "dans3": 419
  },
  "disciplines": {
   "Plat": {
-   "courses": 395,
+   "courses": 396,
    "gagnant": 72,
-   "place": 187
+   "place": 188
   },
   "Steeple-chase": {
    "courses": 43,
@@ -173,10 +173,10 @@
   },
   "LYON-PARILLY": {
    "pays": "FRA",
-   "courses": 16,
+   "courses": 17,
    "gagnant": 7,
-   "place": 12,
-   "dans3": 9
+   "place": 13,
+   "dans3": 10
   },
   "SAINT-CLOUD": {
    "pays": "FRA",
@@ -603,6 +603,12 @@
    "courses": 47,
    "gagnant": 10,
    "place": 29
+  },
+  {
+   "date": "2026-11-28",
+   "courses": 1,
+   "gagnant": 0,
+   "place": 1
   }
  ]
 }
