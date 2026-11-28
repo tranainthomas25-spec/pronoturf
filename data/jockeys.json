@@ -50,13 +50,6 @@
    "i": 161
   },
   {
-   "nom": "A.ORANI",
-   "n": 465,
-   "g": 17.6,
-   "p": 42.2,
-   "i": 159
-  },
-  {
    "nom": "NICOLAS ALEJANDRO RAMIREZ MUNOZ",
    "n": 45,
    "g": 22.2,
@@ -71,6 +64,13 @@
    "i": 159
   },
   {
+   "nom": "A.ORANI",
+   "n": 460,
+   "g": 17.4,
+   "p": 41.7,
+   "i": 157
+  },
+  {
    "nom": "N EDUARDO GONZALEZ BARRIGA SEBASTIA",
    "n": 129,
    "g": 17.1,
@@ -78,17 +78,17 @@
    "i": 153
   },
   {
-   "nom": "N MEDINA MEDINA JAIME FABIA",
-   "n": 78,
-   "g": 17.9,
-   "p": 47.4,
-   "i": 152
-  },
-  {
    "nom": "G.TROLLEY DE PREVAUX",
    "n": 133,
    "g": 15.8,
    "p": 39.1,
+   "i": 151
+  },
+  {
+   "nom": "N MEDINA MEDINA JAIME FABIA",
+   "n": 77,
+   "g": 18.2,
+   "p": 46.8,
    "i": 151
   },
   {
@@ -204,25 +204,18 @@
    "i": 135
   },
   {
+   "nom": "JB.EYQUEM",
+   "n": 69,
+   "g": 14.5,
+   "p": 49.3,
+   "i": 134
+  },
+  {
    "nom": "JOAQUIN ALEJANDRO HERRERA OLIVAR",
    "n": 44,
    "g": 13.6,
    "p": 47.7,
    "i": 133
-  },
-  {
-   "nom": "JB.EYQUEM",
-   "n": 70,
-   "g": 14.3,
-   "p": 48.6,
-   "i": 132
-  },
-  {
-   "nom": "H.BESNIER",
-   "n": 328,
-   "g": 12.8,
-   "p": 40.5,
-   "i": 132
   },
   {
    "nom": "J.CHARRON",
@@ -236,6 +229,13 @@
    "n": 40,
    "g": 20.0,
    "p": 50.0,
+   "i": 130
+  },
+  {
+   "nom": "H.BESNIER",
+   "n": 323,
+   "g": 12.4,
+   "p": 40.6,
    "i": 130
   },
   {
@@ -295,13 +295,6 @@
    "i": 127
   },
   {
-   "nom": "SIBYLLE VOGT",
-   "n": 83,
-   "g": 14.5,
-   "p": 37.3,
-   "i": 126
-  },
-  {
    "nom": "BRAHAM PEREDA GUTIERREZ GERSON A",
    "n": 77,
    "g": 16.9,
@@ -349,6 +342,13 @@
    "g": 13.4,
    "p": 36.6,
    "i": 123
+  },
+  {
+   "nom": "SIBYLLE VOGT",
+   "n": 80,
+   "g": 13.8,
+   "p": 36.2,
+   "i": 122
   }
  ],
  "trot": [
@@ -416,5 +416,5 @@
    "i": 112
   }
  ],
- "maj": "2026-11-27"
+ "maj": "2026-11-28"
 }
